@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  13 JUL 2019 14:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  13 JUL 2019 14:24
 entering extended mode
 **./AUE_Paper.tex
 (AUE_Paper.tex
@@ -1111,16 +1111,16 @@ Overfull \hbox (1.22945pt too wide) in paragraph at lines 201--206
 r adip-isc-ing elit. Morbi
  []
 
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 215.
-[2.2]
-Overfull \vbox (2.16pt too high) has occurred while \output is active []
 
- [3.3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 214.
+ [2.2]
+[3.3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
-
-(AUE_Paper.aux)
+ (AUE_Paper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `AUE_Paper.out' has not changed.
@@ -1128,7 +1128,7 @@ Package rerunfilecheck Info: File `AUE_Paper.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  18028 strings out of 493305
- 276459 string characters out of 3129802
+ 276547 string characters out of 3129802
  389807 words of memory out of 3000000
  20831 multiletter control sequences out of 15000+200000
  130768 words of font info for 254 fonts, out of 3000000 for 9000
@@ -1150,7 +1150,7 @@ ers/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/libertine/LinLib
 ertineTI.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/txfonts/rtxr.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/newtx/txsys.pfb>
-Output written on AUE_Paper.pdf (3 pages, 384515 bytes).
+Output written on AUE_Paper.pdf (3 pages, 384511 bytes).
 PDF statistics:
  177 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
