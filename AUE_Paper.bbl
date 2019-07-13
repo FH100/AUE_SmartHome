@@ -1,0 +1,144 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{7}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{??}{.d}{[n.d.]}]%
+        {.d}
+ \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Home - SmartHome Hilfe}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://service.startsmarthome.de/de/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{??}{.}{[n.d.]}]%
+        {.}
+ \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Infografik: Smart Home: Was spricht daf{\"u}r, was
+  dagegen?}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://de.statista.com/infografik/15254/argumente-fuer-und-gegen-die-nutzung-von-smart-home-produkten/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{??}{.c}{[n.d.]}]%
+        {.c}
+ \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Smart Home - weltweit | Statista Marktprognose}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://de.statista.com/outlook/279/100/smart-home/weltweit#market-revenue}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{??}{.20}{2017}]%
+        {.2017}
+ \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{Latin Square Design: Definition and Balanced Latin
+  Square Algorithm}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.statisticshowto.datasciencecentral.com/latin-square-design/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Dingler, Rzayev, Shirazi, and Henze}{Dingler
+  et~al\mbox{.}}{2018}]%
+        {Dingler.2018}
+\bibfield{author}{\bibinfo{person}{Tilman Dingler}, \bibinfo{person}{Rufat
+  Rzayev}, \bibinfo{person}{Alireza~Sahami Shirazi}, {and}
+  \bibinfo{person}{Niels Henze}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Designing Consistent Gestures Across Device Types}.
+  In \bibinfo{booktitle}{\emph{Engage with CHI}},
+  \bibfield{editor}{\bibinfo{person}{Regan Mandryk} {and} \bibinfo{person}{Mark
+  Hancock}} (Eds.). \bibinfo{publisher}{{The Association for Computing
+  Machinery}}, \bibinfo{address}{New York, New York}, \bibinfo{pages}{1--12}.
+\newblock
+\showISBNx{9781450356206}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3173574.3173993}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Felberbaum and Lanir}{Felberbaum and
+  Lanir}{2018}]%
+        {Felberbaum.2018}
+\bibfield{author}{\bibinfo{person}{Yasmin Felberbaum} {and}
+  \bibinfo{person}{Joel Lanir}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Better Understanding of Foot Gestures}. In
+  \bibinfo{booktitle}{\emph{Engage with CHI}},
+  \bibfield{editor}{\bibinfo{person}{Regan Mandryk} {and} \bibinfo{person}{Mark
+  Hancock}} (Eds.). \bibinfo{publisher}{{The Association for Computing
+  Machinery}}, \bibinfo{address}{New York, New York}, \bibinfo{pages}{1--12}.
+\newblock
+\showISBNx{9781450356206}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3173574.3173908}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Jensen, Strengers, Kjeldskov, Nicholls, and
+  Skov}{Jensen et~al\mbox{.}}{2018}]%
+        {Jensen.2018}
+\bibfield{author}{\bibinfo{person}{Rikke~Hagensby Jensen},
+  \bibinfo{person}{Yolande Strengers}, \bibinfo{person}{Jesper Kjeldskov},
+  \bibinfo{person}{Larissa Nicholls}, {and} \bibinfo{person}{Mikael~B. Skov}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Designing the Desirable Smart Home}. In
+  \bibinfo{booktitle}{\emph{Engage with CHI}},
+  \bibfield{editor}{\bibinfo{person}{Regan Mandryk} {and} \bibinfo{person}{Mark
+  Hancock}} (Eds.). \bibinfo{publisher}{{The Association for Computing
+  Machinery}}, \bibinfo{address}{New York, New York}, \bibinfo{pages}{1--14}.
+\newblock
+\showISBNx{9781450356206}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3173574.3173578}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}
