@@ -1,5 +1,6 @@
 \documentclass[sigchi]{acmart}
 \usepackage{graphicx}
+\usepackage{acronym}
 \graphicspath{ {Plots/} }
 
 %%
@@ -49,6 +50,10 @@
 %%
 %% end of the preamble, start of the body of the document source.
 \begin{document}
+
+	\begin{acronym}
+	\acro{gui}[GUI]{graphical user interface}
+	\end{acronym}
 	
 	%%
 	%% The "title" command has an optional parameter,
@@ -208,7 +213,7 @@
 	With nine participants and eleven tasks, we collected for each of the three interaction modalities $143$ suggestions and in total $13*11*3=429$. Our results include the video recording, taxonomies for each interaction modality, user-defined sets of voice commands, display interactions and gestures, subjective ratings of the sets, qualitative observations and an assessment on the modalities for each task. 
 	
 	\subsection{Classification of Voice Commands}
-	\subsubsection{Taxonomy of Voice Commands}
+	\subsubsection{Taxonomy of voice commands}
 	The participants suggested $43$ unique voice commands. The authors manually classified each voice command along five dimensions: \textit{nature}, \textit{form}, \textit{flow}, \textit{context} and \textit{complexity}. Within each dimension are multiple categories, shown in Table \ref{tab:taxVoice}. We adopted the dimensions from Wobbrock \textit{et al.} \citep{Wobbrock.2009} and Ruiz \textit{et al.} \citep{Ruiz.2011} and adapted them to voice commands. 
 	
 	The \textit{nature} dimension compromises \textit{action} voice commands which state the action to perform. An example of this type of voice command is saying "increase temperature". \textit{State} voice commands describe the desired condition of a device. For example, a \textit{state} voice command is "cameras on" to start camera surveillance.
@@ -224,23 +229,23 @@
 		\begin{center}
 			\caption{Taxonomy of voice commands for smart home tasks}
 			\label{tab:taxVoice}
-			\begin{small}
+			\begin{footnotesize}
 				\begin{tabular}{p{0.2\columnwidth} p{0.2\columnwidth} p{0.5\columnwidth}} \toprule
 					\multicolumn{3}{c}{\textit{Taxonomy of voice commands}} \\ \midrule
 					\textbf{Nature}		& Action		& Voice command states the action to perform \\
-					& State			& Voice command describes the desired condition \\ \midrule
+										& State			& Voice command describes the desired condition \\ \midrule
 					\textbf{Form} 		& Single word	& Voice command consists out of a single word \\
-					& Two words		& Voice command consists out of two words \\
-					& More words	& Voice command consists out of more words without sentence structure \\
-					& Sentence		& Voice command uses sentence structure \\ \midrule
+										& Two words		& Voice command consists out of two words \\
+										& More words	& Voice command consists out of more words without sentence structure \\
+										& Sentence		& Voice command uses sentence structure \\ \midrule
 					\textbf{Flow}		& Discrete		& Response occurs \textit{after} the user acts \\ 
-					& Continuous 	& Response occurs \textit{while} the user acts  \\ \midrule
+										& Continuous 	& Response occurs \textit{while} the user acts  \\ \midrule
 					\textbf{Context}	& In-context	& Voice command requires specific context \\
-					& No-context	& Voice command does not require specific context \\ \midrule
+										& No-context	& Voice command does not require specific context \\ \midrule
 					\textbf{Complexity}	& Simple		& Voice command consists of a single voice command \\
-					& Compound		& Voice command can be decomposed into simple voice commands  \\ \bottomrule
+										& Compound		& Voice command can be decomposed into simple voice commands  \\ \bottomrule
 				\end{tabular}
-			\end{small}
+			\end{footnotesize}
 		\end{center}
 	\end{table}
 	\subsection{User-defined voice command set}
@@ -262,12 +267,68 @@ As an example of calculation of an agreement score, consider the task \textit{in
 			\caption{Agreement scores for each task with voice commands}
 			\Description{Agreement scores for each task with voice commands}
 		\end{figure*}
-		
-
 	\subsection{Classification of Display Interaction}
+	The participants suggested $61$ unique display interactions. Similar to the voice commands we manually classified each display interaction along three dimensions for \ac{gui} elements (\textit{form}, \textit{elements}, \textit{flow}) and for touch gestures along four dimensions (\textit{form}, \textit{nature}, \textit{binding}, \textit{flow}). Within each dimension are multiple categories, shown in Table \ref{tab:taxDisplayGUI} for \ac{gui} elements and for touch gestures in Table \ref{tab:taxDisplayTG}. The dimensions and categories for \ac{gui} elements were inspired by the work from Wobbrock \textit{et al.} \citep{Wobbrock.2009} and Ruiz \textit{et al.} \citep{Ruiz.2011}. As taxonomy for touch gestures we used Wobbrock \textit{et al.} \citep{Wobbrock.2009} taxonomy of surface gestures, witch is displayed in Table \ref{tab:taxDisplayTG}.
+	\subsubsection{Taxonomy of display interaction (\ac{gui} elements):}
+	ToDo: Beschreibung Taxonomy
+	\begin{table}[t]
+		\begin{center}
+			\caption{Taxonomy of display interactions for smart home tasks (\ac{gui} elements)}
+			\label{tab:taxDisplayGUI}
+			\begin{footnotesize}				
+				\begin{tabular}{p{0.2\columnwidth} p{0.2\columnwidth} p{0.5\columnwidth}} \toprule
+					\multicolumn{3}{c}{\textit{Taxonomy of display interactions (\ac{gui} elements)}} \\ \midrule
+					\textbf{Form}		& Direct Action				& Single interaction that directly leads to the action \\
+										& Selection \& Confirmation	& Selection of the action and starting through another element\\ \midrule
+					\textbf{Elements} 	& Single clickables			& The \ac{gui} includes one or more single clickables 
+																	  (button, checkbox, etc.) \\
+										& Slider					& The \ac{gui} includes one or more sliders \\
+										& More words				& Voice command consists out of more words without sentence structure \\
+										& Rotation					& The \ac{gui} includes one or more rotational elements \\ 
+										& Text \& number entry		& The \ac{gui} includes one or more options to enter text or numbers \\
+										& Symbolic					& The \ac{gui} includes one or more special symbolic elements\\ \midrule
+					\textbf{Flow}		& Discrete		& Response occurs \textit{after} the user acts \\ 
+										& Continuous 	& Response occurs \textit{while} the user acts  \\ \bottomrule
+				\end{tabular}
+			\end{footnotesize}	
+		\end{center}
+	\end{table}	
+	\subsubsection{Taxonomy of display interaction (touch gestures):}	
+	ToDo: Bschreibung Taxonomy
+	\begin{table}[t]
+		\begin{center}
+			\caption{Taxonomy of display interactions for smart home tasks (touch gestures)}
+			\label{tab:taxDisplayTG}
+			\begin{footnotesize}
+				\begin{tabular}{p{0.12\columnwidth} p{0.28\columnwidth} p{0.5\columnwidth}} \toprule
+					\multicolumn{3}{c}{\textit{Taxonomy of display interactions (touch gestures)}} \\ \midrule
+					\textbf{Nature}		& Symbolic		& Gesture visually depicts a symbol \\
+										& Physical		& Gesture acts physically on objects \\ 
+										& Metaphorical 	& Gesture indicates a metaphor \\ 
+										& Abstract		& Gesture-referent mapping is arbitrary \\ \midrule
+					\textbf{Form} 		& Static pose	& Hand pose is held in one location \\
+										& Dynamic pose	& Hand pose changes in one location \\
+										& Static pose and path 	& Hand pose is held as hand moves \\
+										& Dynamic pose and path	& Hand pose changes as hand moves \\
+										& One-point touch	& Static pose with one finger \\ 
+										& One-point path	& Static pose and path with one Finger \\ \midrule
+					\textbf{Binding}	& Object-centric 	& Location defined with respect to object features \\
+										& World-dependent 	& Location defined with respect to world features \\
+										& World-independent & Location can ignore world features \\
+										& Mixed dependencies	& World-independent plus another \\ \midrule
+					\textbf{Flow}		& Discrete		& Response occurs \textit{after} the user acts \\ 
+										& Continuous 	& Response occurs \textit{while} the user acts  \\ \bottomrule
+				\end{tabular}
+			\end{footnotesize}
+		\end{center}
+	\end{table}
+	\subsection{User-defined display interaction set}
+	ToDo: Beschreibung + Tabelle set
 	\subsection{Classification of Mid-Air Gestures}
-	blabla
-	
+	ToDo: Beschreibung Taxonomy
+	ToDo: Tabelle Taxonomy
+	\subsection{User-defined mid-air gestures set}
+	ToDo: Beschreibung + Tabelle set
 	
 	
 	
