@@ -1,4 +1,6 @@
 \documentclass[sigchi]{acmart}
+\usepackage{graphicx}
+\graphicspath{ {Plots/} }
 
 %%
 %% \BibTeX command to typeset BibTeX logo in the docs
@@ -242,16 +244,27 @@
 		\end{center}
 	\end{table}
 	\subsection{User-defined voice command set}
-We collected a total of $143$ voice commands, which we used to create a user-defined voice command set for our specified tasks. For each task, we grouped identical voice commands together and the group with largest size was chosen to be the representative voice command for this corresponding task. To evaluate the degree of consensus among the participants, we computed the \textit{agreement score} $A_t$ (Equation \ref{agreement score}), as proposed by Vatavu and Wobbrock \cite{Vatavu.2015}, for each task.
-\begin{equation}
-\label{agreement score}
-	A_t = \frac{|P_t|}{|P_t|-1} \sum_{P_i \subseteq P_t} \left(\frac{|P_i|}{|P_t|}\right)^2  - \frac{1}{|P_t|-1}
-\end{equation}
-In equation \ref{agreement score}, $t$ is a task in the set of all tasks $T$, $P_t$ is the set of suggested voice commands for $t$ and $P_i$ is a subset of identical voice commands from $P_t$.
+We collected a total of $143$ voice commands, which we used to create a user-defined voice command set for our specified tasks. For each task, we grouped identical voice commands together and the group with largest size was chosen to be the representative voice command for this corresponding task. To evaluate the degree of consensus among the participants, we computed the \textit{agreement score} $A_t$ (Equation \ref{eq:agreement score}), as proposed by Vatavu and Wobbrock \cite{Vatavu.2015}, for each task.
+		\begin{equation}
+			\label{eq:agreement score}
+			A_t = \frac{|P_t|}{|P_t|-1} \sum_{P_i \subseteq P_t} \left(\frac{|P_i|}{|P_t|}\right)^2  - \frac{1}{|P_t|-1}
+		\end{equation}
+In equation \ref{eq:agreement score}, $t$ is a task in the set of all tasks $T$, $P_t$ is the set of suggested voice commands for $t$ and $P_i$ is a subset of identical voice commands from $P_t$. 
 As an example of calculation of an agreement score, consider the task \textit{increase the volume of the music}. The task has four groups of identical voice commands with a size of $7$, $4$, $1$ and $1$. Therefore the agreement score for \textit{increase the volume of the music} is:
-\begin{equation}
-	A = \frac{13}{12} \left(\left(\frac{7}{13}\right)^2 + \left(\frac{4}{13}\right)^2 + \left(\frac{1}{13}\right)^2 + \left(\frac{1}{13}\right)^2 \right)- \frac{1}{12} = 0.346
-\end{equation}
+		\begin{equation}
+			A = \frac{13}{12} \left(\left(\frac{7}{13}\right)^2 + \left(\frac{4}{13}\right)^2 + \left(\frac{1}{13}\right)^2 + \left(\frac{1}{13}\right)^2 \right)- \frac{1}{12} = 0.346
+		\end{equation}
+		
+		\begin{figure*}
+			\label{figure:ASvoice}			
+			\centering
+			\includegraphics[width=\textwidth]{AgreementScoresPoint+Line}
+			\caption{Agreement scores for each task with voice commands}
+			\Description{Agreement scores for each task with voice commands}
+		\end{figure*}
+		Figure \ref{figure:ASvoice} illustrates the agreement scores for each task using voice commands. Participants had the least agreement on commands for the tasks \textit{start multi-colored wash at 60 degree} (Task 3) and \textit{increase the room temperature} (Task 5). This is attributable to the complexity of the tasks.
+		
+
 	\subsection{Classification of Display Interaction}
 	\subsection{Classification of Mid-Air Gestures}
 	blabla
