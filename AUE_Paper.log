@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  15 JUL 2019 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  15 JUL 2019 15:25
 entering extended mode
 **./AUE_Paper.tex
 (AUE_Paper.tex
@@ -1094,32 +1094,30 @@ Overfull \hbox (7.94556pt too wide) in paragraph at lines 138--164
 ]
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 210.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 213.
 
-Underfull \hbox (badness 2057) in paragraph at lines 222--223
+[2.2]
+Underfull \hbox (badness 2057) in paragraph at lines 232--233
 \T1/LinuxLibertineT-TLF/m/n/9 (+20) more words with-out sen-tence
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 223--223
+Underfull \hbox (badness 1337) in paragraph at lines 233--233
 []\T1/LinuxLibertineT-TLF/m/n/9 (+20) Voice com-mand uses sen-tence
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 229--229
+Underfull \hbox (badness 2460) in paragraph at lines 239--239
 \T1/LinuxLibertineT-TLF/m/n/9 (+20) posed into sim-ple voice com-
  []
 
 
-Overfull \hbox (5.88377pt too wide) in paragraph at lines 216--232
+Overfull \hbox (5.88377pt too wide) in paragraph at lines 226--242
  [] 
  []
 
 (AUE_Paper.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 5.
- [2.2]
 LaTeX Info: Redefining \tempurl on input line 60.
 
 Underfull \hbox (badness 1789) in paragraph at lines 54--63
@@ -1135,32 +1133,32 @@ LaTeX Info: Redefining \tempurl on input line 140.
 LaTeX Info: Redefining \tempurl on input line 160.
 LaTeX Info: Redefining \tempurl on input line 180.
 )
-Overfull \hbox (1.22945pt too wide) in paragraph at lines 257--262
+Overfull \hbox (1.22945pt too wide) in paragraph at lines 267--272
 \T1/LinuxLibertineT-TLF/m/n/10 (-20) Lorem ip-sum do-lor sit amet, con-secte-tu
 r adip-isc-ing elit. Morbi
  []
 
 
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
+Underfull \vbox (badness 1325) has occurred while \output is active []
 
-[3.3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
+ [3.3]
+[4.4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
  (AUE_Paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
 Package rerunfilecheck Info: File `AUE_Paper.out' has not changed.
 (rerunfilecheck)             Checksum: 251228900E3F922D81CF33CE04CB3F3F;2326.
  ) 
 Here is how much of TeX's memory you used:
- 18096 strings out of 493305
- 278077 string characters out of 3129802
- 391005 words of memory out of 3000000
+ 18106 strings out of 493305
+ 277850 string characters out of 3129802
+ 392005 words of memory out of 3000000
  20841 multiletter control sequences out of 15000+200000
- 143151 words of font info for 291 fonts, out of 3000000 for 9000
+ 144166 words of font info for 297 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,12n,94p,1666b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,12n,94p,1666b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/libertine/l
 btn_25tcsq.enc}{C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
 s/libertine/lbtn_oexx6f.enc}{C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/f
@@ -1179,9 +1177,9 @@ c/libertine/LinLibertineTI.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/Felix/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/Felix/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb>
-Output written on AUE_Paper.pdf (3 pages, 443738 bytes).
+Output written on AUE_Paper.pdf (4 pages, 446554 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
  48277 words of extra memory for PDF output out of 51595 (max. 10000000)
 
