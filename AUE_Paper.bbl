@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -158,6 +158,25 @@
 \showISBNx{9781450302289}
 \urldef\tempurl%
 \url{https://doi.org/10.1145/1978942.1978971}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Vatavu and Wobbrock}{Vatavu and
+  Wobbrock}{2015}]%
+        {Vatavu.2015}
+\bibfield{author}{\bibinfo{person}{Radu-Daniel Vatavu} {and}
+  \bibinfo{person}{Jacob~O. Wobbrock}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Formalizing Agreement Analysis for Elicitation
+  Studies}. In \bibinfo{booktitle}{\emph{Proceedings of the 33rd Annual ACM
+  Conference on Human Factors in Computing Systems - CHI '15}},
+  \bibfield{editor}{\bibinfo{person}{Bo~Begole}, \bibinfo{person}{Jinwoo Kim},
+  \bibinfo{person}{Kori Inkpen}, {and} \bibinfo{person}{Woontack Woo}} (Eds.).
+  \bibinfo{publisher}{{ACM Press}}, \bibinfo{address}{New York, New York, USA},
+  \bibinfo{pages}{1325--1334}.
+\newblock
+\showISBNx{9781450331456}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2702123.2702223}
 \showDOI{\tempurl}
 
 
