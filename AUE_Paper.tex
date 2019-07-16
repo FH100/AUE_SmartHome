@@ -14,7 +14,7 @@
 %% values in them; it is your responsibility as an author to replace
 %% the commands and values with those provided to you when you
 %% complete the rights form.
-\setcopyright{acmcopyright}
+\setcopyright{none}
 \copyrightyear{2018}
 \acmYear{2018}
 \acmDOI{10.1145/1122445.1122456}
@@ -99,13 +99,13 @@
 	%% other information printed in the page headers. This command allows
 	%% the author to define a more concise list
 	%% of authors' names for this purpose.
-	\renewcommand{\shortauthors}{Trovato and Tobin, et al.}
+	%% \renewcommand{\shortauthors}{Trovato and Tobin, et al.}
 	
 	%%
 	%% The abstract is a short summary of the work to be presented in the
 	%% article.
 	\begin{abstract}
-		We present a study aimed to gain insight on users' perceptions and desires in the context of smart home interaction techniques. To achieve this, we conducted an elicitation study in which participants were asked to perform commands within a simulated smart home environment, facing three conditions: voice command, display interaction and mid-air gestures. Facing tasks of different areas in smart home that require user assistance, the participants suggested fitting commands and rated them on the grounds of goodness, ease, enjoyment and social acceptance, as well as their general preference of each technique. The collected measures allow us to present insights that can be used as possible future guidelines for smart home interaction techniques and future research in voice command, display interactions and mid-air gestures.
+		We present a study aimed to gain insight on users' perceptions and desires in the context of smart home interaction modalities. To achieve this, we conducted an elicitation study in which participants were asked to perform commands within a simulated smart home environment, facing three conditions: voice command, display interaction and mid-air gestures. Facing tasks of different areas in smart home that require user assistance, the participants suggested fitting commands and rated them on the grounds of goodness, ease, enjoyment and social acceptance, as well as their general preference of each modality. The collected measures allow us to present insights that can be used as possible future guidelines for smart home interaction modalities and future research in voice command, display interactions and mid-air gestures.
 	\end{abstract}
 	
 	%%
@@ -126,13 +126,13 @@
 	\maketitle
 	
 	\section{Introduction}
-	Smart homes and its interaction techniques are widely spread ...  Existing work focuses on creating smart home interaction techniques considered desirable and enjoyable to use for its users, as developed by Hagensby Jensen et al. \cite{Jensen.2018}. ... This is caused by different obstacles, such as the interaction techniques being too expensive to implement or too complex to understand. Interacting with a smart home requires techniques that are easy to perform by its user, but also techniques that are easily coming to mind, with user enjoyment and social acceptance as variables also important to consider. Our goal is ... 
+	Smart homes and its interaction modalities are widely spread ...  Existing work focuses on creating smart home interaction modalities considered desirable and enjoyable to use for its users, as developed by Hagensby Jensen et al. \cite{Jensen.2018}. ... This is caused by different obstacles, such as the interaction modalities being too expensive to implement or too complex to understand. Interacting with a smart home requires modalities that are easy to perform by its user, but also modalities that are easily coming to mind, with user enjoyment and social acceptance as variables also important to consider. Our goal is ... 
 	
 	\section{Approach and Methodology}
 	We followed a similar approach as Dingler et al. \cite{Dingler.2018} by showing and explaining different smart home tasks to the participants and subsequently asking them to propose a voice command, a display interaction and a mid-air gesture, to fulfil the specific tasks in their preferred way. All eleven tasks are listed in section 'Tasks'. A within-subject design was chosen, so every participant gave suggestions for every modality and task. We used a latin-square on the order of the interaction modalities to reduce sequence effects \cite{.2017} and fatigue. The tasks were shown to the participants in  random order. We took video recordings of all sessions. We also collected feedback from participants through questionnaires, on preferences of interaction modalities for a specific task and on goodness, ease, enjoyment and social acceptance of their suggestions.
 	
 	\subsection{Interaction Modalities}
-	We compared three different types of interaction modalities. The already commonly used voice and display control, as well as the existing but lacking development technique of mid-air gestures. Therefore, we were able to collect insights on the existing techniques and additionally gain a new set of mid-air gestures.
+	We compared three different types of interaction modalities. The already commonly used voice and display control, as well as the existing but lacking development technique of mid-air gestures. Therefore, we were able to collect insights on the existing modalities and additionally gain a new set of mid-air gestures.
 	
 	\subsection{Tasks}
 	The smart home market can be divided into six different categories \cite{.c}. Those are \textit{home entertainment, smart household appliances, energy management, networking and control, comfort and light} and \textit{building security}. We excluded the category \textit{networking and control} for developing the tasks, because it does not include devices that can be controlled, but is rather the infrastructure of a smart home and would be responsible for the detection of performed commands. For all other categories we selected two common tasks \cite{.d} each, except for \textit{building security} three because of its bigger market share. All categories with their assigned tasks are listed in table \ref{tab:tasks}.
@@ -329,21 +329,15 @@ As an example of calculation of an agreement score, consider the task \textit{in
 	ToDo: Beschreibung + Tabelle set
 	
 	\subsection{Qualitative Results}
-	The qualitative data obtained through the semi-structured interview was analysed by splitting the participants opinions into six categories, obtained through an open-coding approach carried out by the three researchers individually. These are evaluation of the experiment, voice control, display control and mid-air gesture control, as well as possible mixtures of the modalities and further suggested interaction modalities. ... The participants mainly thought of the experiment as interesting and innovative. Participants stated it was "interesting to test new things I’ve never done before" ... Looking into general opinions on the different interaction modalities, the participants voice mainly favourable opinions about voice control. They stated "...". Display control was regarded as ... as well ... On the other hand, participants were not as convinced by gesture control, as is mirrored in the collected quantitative data. They stated that "..." and "...". The surveillance aspect also valued into those opinions, with participants stating that "...", which also influenced their view on voice control, even though not as much, as participants specified that "...". When asked about the possibilities of mixing two or three of the suggested interaction modalities in one smart home environment, participants were generally in favour of it ... Participants were also asked about other interaction modalities different from voice, display and gesture control that come to their mind, resulting in interesting approaches for possible future work such as "...". 
+	The qualitative data obtained through the semi-structured interview was analysed by splitting the participants opinions into six categories, obtained through an open-coding approach carried out by the three researchers individually. These are evaluation of the experiment, voice control, display control and mid-air gesture control, as well as possible mixtures of interaction modalities and further suggested ones. The participants mainly thought of the experiment as interesting and innovative. Participants stated it was "entertaining and interesting to test out new things I've never done before". Looking into general opinions on the different interaction modalities, the participants voice mainly favourable opinions about voice control. They stated voice control is "clear and unambiguous, like commanding". Display control was regarded as easy to control and intuitive, "it's the most universal and comfortable to use", while also classing it as time-consuming, stating it's "tedious, always having to hold a display, like a smart phone, in your hands". On the other hand, participants were not as convinced by mid-air gesture control, as is mirrored in the collected quantitative data. They stated it's "complicated to use" and "only intuitive if all gestures are the same", explaining that "gestures you use seldom, you completely forget after like a month". The surveillance aspect also valued into those opinions, with participants stating that "I don't want to be under constant surveillance, I wouldn't implement such an interaction technique", which also influenced their view on voice control, even though not as much, as participants specified that "voice control is not as bad as video monitoring, though it would be better if you could turn it off.". When asked about the possibilities of mixing two or three of the suggested interaction modalities in one smart home environment, participants were generally in favour of it, stating "combining like two, like voice and display, would be the most convenient". Participants were also asked about other interaction modalities different from voice, gesture and display control that come to their mind, resulting in interesting approaches for possible future work such as "I'd like haptic feedback, such as stomping once on the floor to activate my underfloor heating" or "I don't want to talk too much to my smart home, I want it to know my demands autonomously". 
 	
 	\section{Discussion}
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-	malesuada, quam in pulvinar varius, metus nunc fermentum urna, id
-	sollicitudin purus odio sit amet enim. Aliquam ullamcorper eu ipsum
-	vel mollis. Curabitur quis dictum nisl. Phasellus vel semper risus, et
-	lacinia dolor. Integer ultricies commodo sem nec semper.
+	PLACEHOLDER
 	
 	\section{Future Work}
 	The research offers a groundwork for future work in the surroundings of smart home development. Additionally, it also provides the base of producing even more insights on the examined interaction modalities through extending and improving the existing study. To achieve this, future work can build on the qualitative research that showed participants stating they mostly prefer display and voice control, with a possible combination of these two interaction modalities. Further work needs to focus on this approach, while also testing a combination of interaction modalities within a setting including more actual implemented parts of a smart home system. Although simulations offer research that is faster to develop and perform, they can not guarantee with an absolute certainty users would act the same way in a real smart home environment. To achieve a higher transferability and generalizability of the research, the number of participants and population to draw from needs to be significantly extended. 
-	
-	Leaving the approach to interact with user's short-time desires leads to us to future work centering around smart home-user interaction for long-time settings. Many of the participants stated their wish to interact with the smart home as little as possible. Instead, they preferred a scenario of setting their needs and demands at an early point in the implementation and rely on the smart home system working autonomous from that moment on. This could lead to a drastic change in participants' viewpoints on goodness, ease and social acceptance of interaction techniques. Performing a command only once compared to multiple times could lead to more lenient opinions on complex voice commands or mid-air gestures, or highly detailed structures of display commands.
-	
-	Safety issues mentioned in the qualitative research concerning the need to monitor users' in order to implement voice and mid-air gesture control can also lead to further research. In the time of highly demanded data security and privacy, smart homes can not pose as threats to this. Future work can focus studies developing interaction modalities that are free from such concerns or improve existing techniques to no longer rely on constant user supervision. For this, it's necessary to collaborate with experts of other fields.
+	Leaving the approach to interact with user's short-time desires leads to us to future work centering around smart home-user interaction for long-time settings. Many of the participants stated their wish to interact with the smart home as little as possible. Instead, they preferred a scenario of setting their needs and demands at an early point in the implementation and rely on the smart home system working autonomous from that moment on. This could lead to a drastic change in participants' viewpoints on goodness, ease and social acceptance of interaction modalities. Performing a command only once compared to multiple times could lead to more lenient opinions on complex voice commands or mid-air gestures, or highly detailed structures of display commands.
+	Safety issues mentioned in the qualitative research concerning the need to monitor users' in order to implement voice and mid-air gesture control can also lead to further research. In the time of highly demanded data security and privacy, smart homes can not pose as threats to this. Future work can focus on studies developing interaction modalities that are free from such concerns or improve existing modalities to no longer rely on constant user supervision. For this, it's necessary to collaborate with experts of other fields.
 	
 	
 	%%
@@ -354,9 +348,6 @@ As an example of calculation of an agreement score, consider the task \textit{in
 	
 	%%
 	%% If your work has an appendix, this is the place to put it.
-	\appendix
-
-	
 \end{document}
 \endinput
 %%
