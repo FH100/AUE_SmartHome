@@ -60,7 +60,7 @@
 	%%
 	%% The "title" command has an optional parameter,
 	%% allowing the author to define a "short title" to be used in page headers.
-	\title{Different interaction modalities for smart home}
+	\title{User-Defined Voice Commands, Display Interactions and Mid-Air Gestures for Smart Home Tasks}
 	
 	%%
 	%% The "author" command and its associated commands are used to define
@@ -220,14 +220,14 @@
 	With nine participants and eleven tasks, we collected for each of the three interaction modalities $143$ suggestions and in total $13*11*3=429$. Our results include the video recording, taxonomies for each interaction modality, user-defined sets of voice commands, display interactions and gestures, subjective ratings of the sets, qualitative observations and an assessment on the modalities for each task. 
 	
 	\subsection{Classification of Voice Commands}
-	\subsubsection{Taxonomy of voice commands}
 	The participants suggested $43$ unique voice commands. The authors manually classified each voice command along five dimensions: \textit{nature}, \textit{form}, \textit{flow}, \textit{context} and \textit{complexity}. Within each dimension are multiple categories, shown in Table \ref{tab:taxVoice}. We adopted the dimensions from Wobbrock \textit{et al.} \citep{Wobbrock.2009} and Ruiz \textit{et al.} \citep{Ruiz.2011} and adapted them to voice commands. 
 	
-	The \textit{nature} dimension compromises \textit{action} voice commands which state the action to perform. An example of this type of voice command is saying "increase temperature". \textit{State} voice commands describe the desired condition of a device. For example, a \textit{state} voice command is "cameras on" to start camera surveillance.
+	\subsubsection{Taxonomy of Voice Commands}
+	The \textit{nature} dimension comprises \textit{action} voice commands which state the action to perform. An example of this type of voice command is saying "increase temperature". \textit{State} voice commands describe the desired condition of a device. For example, a \textit{state} voice command is "cameras on" to start camera surveillance.
 	
 	The \textit{form} dimension describes how much words are used in the voice command and if they have the structure of a full sentence. A \textit{single word} command can be "next" to get to the next TV channel. \textit{Two words} voice commands mostly consist out of the mentioning of the device to be controlled and an action or state. \textit{More words} commands are similar to \textit{two words} but use additional filler words. Finally, voice commands that are correct sentences were classified with the category \textit{sentence}.
 	
-	The \textit{flow} dimension categorizes the voice commands, if response of a device occurs after or while the user acts. A voice command is\textit{discrete}, when device perform the command after the participant stopped talking. A \textit{continuous} voice command would be starting an action with a command and stop the ongoing action with another command.
+	The \textit{flow} dimension categorizes the voice commands, if response of a device occurs after or while the user acts. A voice command is\textit{discrete}, when a device performs the command after the participant stopped talking. A \textit{continuous} voice command would be starting an action with a command and stop the ongoing action with another command.
 	
 	The \textit{context} dimension describes, if the voice command requires a specific context or can be performed independently. For example saying "turn off" to turn off the oven is \textit{in-context}, whereas "oven off" is considered \textit{no-context}.
 	
@@ -255,7 +255,7 @@
 			\end{footnotesize}
 		\end{center}
 	\end{table}
-	\subsection{User-defined voice command set}
+	\subsection{User-defined Voice Command Set}
 We collected a total of $143$ voice commands, which we used to create a user-defined voice command set for our specified tasks. For each task, we grouped identical voice commands together and the group with largest size was chosen to be the representative voice command for this corresponding task. To evaluate the degree of consensus among the participants, we computed the \textit{agreement score} $A_t$ (Equation \ref{eq:agreement score}), as proposed by Vatavu and Wobbrock \cite{Vatavu.2015}, for each task.
 		\begin{equation}
 			\label{eq:agreement score}
@@ -266,15 +266,22 @@ As an example of calculation of an agreement score, consider the task \textit{in
 		\begin{equation}
 			A = \frac{13}{12} \left(\left(\frac{7}{13}\right)^2 + \left(\frac{4}{13}\right)^2 + \left(\frac{1}{13}\right)^2 + \left(\frac{1}{13}\right)^2 \right)- \frac{1}{12} = 0.346
 		\end{equation}
-		Figure \ref{figure:ASvoice} illustrates the agreement scores for each task using voice commands. Participants had the least agreement on commands for the tasks \textit{start multi-colored wash at 60 degree} (Task 3) and \textit{increase the room temperature} (Task 5). This is attributable to the complexity of the tasks.
+		Figure \ref{figure:ASall} illustrates the agreement scores for each task using voice commands. Participants had the least agreement on commands for the tasks \textit{start multi-colored wash at 60 degree} (Task 3) and \textit{increase the room temperature} (Task 5). This is attributable to the complexity of the tasks.
 		\begin{figure*}			
 			\centering
-			\includegraphics[width=\textwidth]{AgreementVoice}
-			\caption{Agreement scores for each task with voice commands}
-			\label{figure:ASvoice}
-			\Description{Agreement scores for each task with voice commands}
+			\includegraphics[width=\textwidth]{AgreementScoresAllTechniques}
+			\caption{Agreement scores for each task with of all interaction modalities}
+			\label{figure:ASall}
+			\Description{Agreement scores for each task with of all interaction modalities}
 		\end{figure*}
-	Since the study was conducted in German, we also provide the original version of the voice commands to prevent losses during translation. Table \ref{tab:UserVoice} shows the most common and second most common voice command and their frequency according to the different tasks.
+%		\begin{figure*}			
+%			\centering
+%			\includegraphics[width=\textwidth]{AgreementVoice}
+%			\caption{Agreement scores for each task with voice commands}
+%			\label{figure:ASvoice}
+%			\Description{Agreement scores for each task with voice commands}
+%		\end{figure*}
+	Since the study was conducted in German, we also provide the original version of the voice commands to prevent losses during translation. Table \ref{tab:UserVoice} shows the most common and second most common voice commands and their frequency according to the different tasks.
 	\begin{table}[t]
 		\begin{center}
 			\caption{User defined voice command set with the two most common options for each task}
@@ -309,7 +316,7 @@ As an example of calculation of an agreement score, consider the task \textit{in
 	\end{table}	
 	\subsection{Classification of Display Interaction}
 	The participants suggested $61$ unique display interactions. Similar to the voice commands we manually classified each display interaction along three dimensions for \ac{gui} elements (\textit{form}, \textit{elements}, \textit{flow}) and for touch gestures along four dimensions (\textit{form}, \textit{nature}, \textit{binding}, \textit{flow}). Within each dimension are multiple categories, shown in Table \ref{tab:taxDisplayGUI} for \ac{gui} elements and for touch gestures in Table \ref{tab:taxDisplayTG}. The dimensions and categories for \ac{gui} elements were inspired by the work from Wobbrock \textit{et al.} \citep{Wobbrock.2009} and Ruiz \textit{et al.} \citep{Ruiz.2011}. As taxonomy for touch gestures we used Wobbrock \textit{et al.} \citep{Wobbrock.2009} taxonomy of surface gestures, witch is displayed in Table \ref{tab:taxDisplayTG}.
-	\subsubsection{Taxonomy of display interaction (\ac{gui} elements):}
+	\subsubsection{Taxonomy of Display Interaction (\ac{gui} Elements):}
 	ToDo: Beschreibung Taxonomy wie bei voice
 	\begin{table}[t]
 		\begin{center}
@@ -333,7 +340,7 @@ As an example of calculation of an agreement score, consider the task \textit{in
 			\end{footnotesize}	
 		\end{center}
 	\end{table}	
-	\subsubsection{Taxonomy of display interaction (touch gestures):}	
+	\subsubsection{Taxonomy of Display Interaction (Touch Gestures):}	
 	ToDo: Bschreibung Taxonomy wie bei voice
 	\begin{table}[t]
 		\begin{center}
@@ -362,12 +369,69 @@ As an example of calculation of an agreement score, consider the task \textit{in
 			\end{footnotesize}
 		\end{center}
 	\end{table}
-	\subsection{User-defined display interaction set}
+	\subsection{User-Defined Display Interaction Set}
 	ToDo: Beschreibung + Tabelle set wie voice
 	\subsection{Classification of Mid-Air Gestures}
-	ToDo: Beschreibung Taxonomy wie voice
-	ToDo: Tabelle Taxonomy
-	\subsection{User-defined mid-air gestures set}
+	The participants suggested $55$ unique mid-air gestures. Once again we manually classified each mid-air gesture, this time along eight dimensions. The dimensions are \textit{nature}, \textit{flow}, \textit{context}, \textit{interaction}, \textit{dimension}, \textit{position}, \textit{movement} and \textit{complexity}. Within each dimension are multiple categories, shown in Table \ref{tab:taxGestures}. We adopted the dimensions \textit{nature} (small adjustment at category \textit{physical}), \textit{flow}, \textit{context} and \textit{complexity} and their corresponding categories from Wobbrock \textit{et al.} \citep{Wobbrock.2009} and Ruiz \textit{et al.} \citep{Ruiz.2011}. \textit{Dimension} from Ruiz \textit{et al.} \citep{Ruiz.2011} was adapted to our needs. \textit{Interaction} was inspired by Dingler \textit{et al.} \citep{Dingler.2018} and we further extended the taxonomy by the two dimensions \textit{position} and \textit{movement}.
+	\subsubsection{Taxonomy of Mid-Air Gestures:}
+	The \textit{nature} dimension includes \textit{symbolic} mid-air gestures, which visually depict symbols. An example for that is drawing a "X" into the air to turn off the oven. \textit{Physical} mid-air gestures imitate real physical actions like locking a door with a key, by rotating the wrist with a fist like hand position. A \textit{metaphorical} gesture may be wrapping the arms around yourself with rubbing, to indicate you are freezing and want to raise the temperature in the room. Mid-air gestures that did not fit into any of these three categories are classified as \textit{abstract}.
+	
+	The \textit{flow} dimension is the same as in the other taxonomies  and categorizes the mid-air gestures, if response of a device occurs after or while the user acts. A mid-air gesture is\textit{discrete}, when the response occurs after the movement, and \textit{continuous}, when the response occurs during the movement. 
+	
+	The \textit{context} dimension describes, if the mid-air gesture requires a specific context or can be performed independently. For example making a horizontal hand movement to change the TV channel is \textit{in-context}, whereas pointing at the TV and then performing the hand movement is considered \textit{no-context}.
+	
+	The \textit{interaction} dimension simply describes if the participant used only one hand or both hands for their suggested mid-air gesture.
+	
+	The \textit{dimension} of a mid-air gesture is used to describe how many axis are involved in the movement of the hand. Some gestures, like just rotating the wrist happen along only a single axis. The translation of a hand or a rotational motion from the wrist are considered \textit{tri-axis}. The combination of those two movements is classified as \textit{six-axis}. The movement of fingers was ignored in this dimension and is described more in the dimension \textit{movement}.
+	
+	The \textit{position} dimension describes the finger position at the beginning of the mid-air gesture. The difference between \textit{flat hand} and \textit{open hand} is, that the fingers are together at \textit{flat hand} and spread at \textit{open hand}.
+	
+	The \textit{movement} dimension simply states if the participant includes relevant finger movement (\textit{movement}) or no finger movement (\textit{no movement}) into his mid-air gesture. 
+	
+	The \textit{complexity} dimension describes, just like voice commands, if the mid-air gesture consists out of a single or a composition of more mid-air gestures. A \textit{compound} mid-air gesture can be decomposed into \textit{simple} gestures.	
+	\begin{table}[t]
+		\begin{center}
+			\caption{Taxonomy of mid-air gestures for smart home tasks}
+			\label{tab:taxGestures}
+			\begin{footnotesize}
+				\begin{tabular}{p{0.15\columnwidth} p{0.2\columnwidth} p{0.5\columnwidth}} \toprule
+					\multicolumn{3}{c}{\textit{Taxonomy of mid-air gestures for smart home tasks}} \\ \midrule
+					\textbf{Nature}		& Symbolic			& Gesture visually depicts a symbol \\
+										& Physical			& Gesture imitates a physical action \\ 
+										& Metaphorical 		& Gesture indicates a metaphor \\ 
+										& Abstract			& Gesture-referent mapping is arbitrary \\ \midrule
+					\textbf{Flow}		& Discrete			& Response occurs \textit{after} the user acts \\ 
+										& Continuous 		& Response occurs \textit{while} the user acts  \\ 
+					\textbf{Context}	& In-context		& Gesture requires specific context \\
+										& No-context		& Gesture does not require specific context \\ \midrule
+					\textbf{Interaction}& One hand			& Gesture was performed with one hand \\
+										& Two hands			& Gesture was performed with two hands \\ \midrule
+					\textbf{Dimension}	& Single-Axis		& Motion occurs around a single axis from \\
+										& Tri-Axis			& Motion involves either translational motion from hand or rotational motion from wrist, not both \\
+										& Six-Axis			& Motion involves translational motion from hand and rotational motion from wrist \\ \midrule
+					\textbf{Position}	& Flat hand			& Gesture started with flat hand \\
+										& Open hand			& Gesture started with open hand \\
+										& Closed hand		& Gesture started with closed hand (fist) \\
+										& Single finger		& Gesture started with a single outstretched finger \\
+										& Two fingers		& Gesture started with two outstretched fingers \\
+										& More fingers		& Gesture started with three or four outstretched fingers \\ \midrule
+					\textbf{Movement}	& No movement		& No change in finger position \\
+										& Movement			& Change in finger position \\ \midrule
+					\textbf{Complexity}	& Simple			& Gesture consists of a single gesture \\
+										& Compound			& Gesture can be decomposed into simple gestures \\ \bottomrule
+				\end{tabular}
+			\end{footnotesize}
+		\end{center}
+	\end{table}
+	\subsection{User-Defined Mid-Air Gesture Set}
+	We collected $142$ mid-air gestures, because one participant could not think of a mid-air gesture for starting the  multi-colored wash at $60$ degree. Then we followed the procedure as with voice commands and display interactions. We grouped the identical mid-air gestures together, chose the group with the largest size as representative gesture for the corresponding task and computed the \textit{agreement score} (Equation \ref{eq:agreement score}) for each task. The latter are also shown in Figure \ref{figure:ASall} (blue). Task 3 (\textit{start multi-colored wash at 60 degree}) has an \textit{agreement score} of $0.0$ because there were no two identical mid-air gestures. Compared to the other two modalities the participants had the highest agreement on Task 2 (\textit{turn on the next TV channel}) with an \textit{agreement score} of $0.705$.
+%	\begin{figure*}			
+%		\centering
+%		\includegraphics[width=\textwidth]{AgreementGesten}
+%		\caption{Agreement scores for each task with mid-air gestures}
+%		\label{figure:ASgesture}
+%		\Description{Agreement scores for each task with mid-air gestures}
+%	\end{figure*}
 	ToDo: Beschreibung + Tabelle set wie voice
 	
 	\subsection{Comparing the Modalities}
