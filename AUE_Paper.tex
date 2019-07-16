@@ -1,5 +1,7 @@
 \documentclass[sigchi]{acmart}
 \usepackage{graphicx}
+\usepackage{array}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \usepackage[nolist]{acronym}
 \graphicspath{ {Plots/} }
 
@@ -203,11 +205,11 @@
 	
 	\subsection{Apparatus}
 	The study was carried out in a quiet room. The different tasks were illustrated through pictures, which showed the state before and after issuing the command. Mid-air gestures, voice commands and comments of the participants were recorded by a mounted camera. Display interaction was documented through a sketch on paper. The whole setup is shown in Figure \ref{figure:Setup}. None of the interaction modalities were actually implemented.
-	\begin{figure}
-		\label{figure:Setup}			
+	\begin{figure}			
 		\centering
 		\includegraphics[width=\columnwidth]{SetupZahlen}
 		\caption{Setup with monitor to illustrate smart home tasks (1), camera for video recording (2) and the questionnaires (3)}
+		\label{figure:Setup}
 		\Description{Setup with monitor to illustrate smart home tasks (1), camera for video recording (2) and the questionnaires (3)}
 	\end{figure}
 	
@@ -265,42 +267,42 @@ As an example of calculation of an agreement score, consider the task \textit{in
 			A = \frac{13}{12} \left(\left(\frac{7}{13}\right)^2 + \left(\frac{4}{13}\right)^2 + \left(\frac{1}{13}\right)^2 + \left(\frac{1}{13}\right)^2 \right)- \frac{1}{12} = 0.346
 		\end{equation}
 		Figure \ref{figure:ASvoice} illustrates the agreement scores for each task using voice commands. Participants had the least agreement on commands for the tasks \textit{start multi-colored wash at 60 degree} (Task 3) and \textit{increase the room temperature} (Task 5). This is attributable to the complexity of the tasks.
-		\begin{figure*}
-			\label{figure:ASvoice}			
+		\begin{figure*}			
 			\centering
 			\includegraphics[width=\textwidth]{AgreementVoice}
 			\caption{Agreement scores for each task with voice commands}
+			\label{figure:ASvoice}
 			\Description{Agreement scores for each task with voice commands}
 		\end{figure*}
 	Since the study was conducted in German, we also provide the original version of the voice commands to prevent losses during translation. Table \ref{tab:UserVoice} shows the most common and second most common voice command and their frequency according to the different tasks.
 	\begin{table}[t]
 		\begin{center}
-			\caption{User defined voice command set}
+			\caption{User defined voice command set with the two most common options for each task}
 			\label{tab:UserVoice}
 			\begin{footnotesize}				
-				\begin{tabular}{p{0.1\columnwidth} p{0.3\columnwidth} p{0.3\columnwidth} p{0.2\columnwidth}} \toprule
+				\begin{tabular}{p{0.07\columnwidth} p{0.3\columnwidth} p{0.3\columnwidth} R{0.16\columnwidth}} \toprule
 					\textbf{Task}	& \textbf{German}			& \textbf{English}		& \textbf{Frequency} \\ \midrule
-					1				& lauter					& louder				& 53.8\% \\ 
-									& Musik lauter				& music louder			& 30.8\% \\ \midrule
-					2				& N\"achster Kanal			& next channel			& 46.2\% \\
-									& weiter					& next					& 23.1\% \\ \midrule
-					3				& Buntw\"asche 60 Grad		& colored laundry 60 degrees		& 30.8\% \\ 
-									& Starte Buntw\"asche 60 Grad	& start colored laundry 60 degrees	& 15.4\% \\ \midrule
-					4				& Ofen aus					& oven off				& 84.6\% \\
-									& ausschalten				& turn off				&  7.7\% \\ \midrule
-					5				& W\"armer					& warmer					& 30.8\% \\
-									& Raumtemperatur erh\"ohen	& increase room temperature	& 30.8\% \\ \midrule
-					6				& Rollladen \"offnen			& open roller shutter	& 69.2\% \\
-									& Rollladen auf				& roller shutter up		& 23.1\% \\ \midrule
-					7				& Licht an 					& light on 				& 100\% \\ \midrule
-					8				& Licht dimmen				& dim light				& 30.8\% \\
-									& Licht dunkler				& light darker			& 15.4\% \\ \midrule
-					9				& Fenster schlieen			& close window			& 53.8\% \\
-									& Fenster zu				& window closed			& 46.2\% \\ \midrule
-					10				& Haust\"ur absperren			& lock front door		& 61.5\% \\ 
-									& T\"ur zu					& door closed			& 23.1\% \\ \midrule
-					11				& Kamera an					& camera on				& 61.5\% \\ 
-									& Kamera einschalten		& switch on camera		& 23.1\% \\ \bottomrule
+					1				& lauter					& louder				& 53.8 \% \\ 
+									& Musik lauter				& music louder			& 30.8 \% \\ \midrule
+					2				& N\"achster Kanal			& next channel			& 46.2 \% \\
+									& weiter					& next					& 23.1 \% \\ \midrule
+					3				& Buntw\"asche 60 Grad			& colored laundry 60 degrees		& 30.8 \% \\ 
+									& Starte Buntw\"asche 60 Grad	& start colored laundry 60 degrees	& 15.4 \% \\ \midrule
+					4				& Ofen aus					& oven off				& 84.6 \% \\
+									& ausschalten				& turn off				&  7.7 \% \\ \midrule
+					5				& W\"armer					& warmer					& 30.8 \% \\
+									& Raumtemperatur erh\"ohen	& increase room temperature	& 30.8 \% \\ \midrule
+					6				& Rollladen \"offnen		& open roller shutter	& 69.2 \% \\
+									& Rollladen auf				& roller shutter up		& 23.1 \% \\ \midrule
+					7				& Licht an 					& light on 				& 100.0 \% \\ \midrule
+					8				& Licht dimmen				& dim light				& 30.8 \% \\
+									& Licht dunkler				& light darker			& 15.4 \% \\ \midrule
+					9				& Fenster schlie{\ss}en		& close window			& 53.8 \% \\
+									& Fenster zu				& window closed			& 46.2 \% \\ \midrule
+					10				& Haust\"ur absperren		& lock front door		& 61.5 \% \\ 
+									& T\"ur zu					& door closed			& 23.1 \% \\ \midrule
+					11				& Kamera an					& camera on				& 61.5 \% \\ 
+									& Kamera einschalten		& switch on camera		& 23.1 \% \\ \bottomrule
 				\end{tabular}
 			\end{footnotesize}	
 		\end{center}
@@ -370,16 +372,22 @@ As an example of calculation of an agreement score, consider the task \textit{in
 	
 	\subsection{Comparing the Modalities}
 	PLACEHOLDER Figure \ref{figure:ModalityRating}
-	\begin{figure}
-		\label{figure:ModalityRating}			
+	\begin{figure}			
 		\centering
 		\includegraphics[width=\columnwidth]{MeanGesamt}
 		\caption{Modalities rated by the participants, for each task on a scale from 1="not fitting at all" to 7="very fitting"}
+		\label{figure:ModalityRating}
 		\Description{Modalities rated by the participants, for each task on a scale from 1="not fitting at all" to 7="very fitting"}
 	\end{figure}
 	
 	\subsection{Qualitative Results}
-	The qualitative data obtained through the semi-structured interview was analysed by splitting the participants opinions into six categories, obtained through an open-coding approach carried out by the three researchers individually. These are evaluation of the experiment, voice control, display control and mid-air gesture control, as well as possible mixtures of interaction modalities and further suggested ones. The participants mainly thought of the experiment as interesting and innovative. Participants stated it was "entertaining and interesting to test out new things I've never done before". Looking into general opinions on the different interaction modalities, the participants voice mainly favourable opinions about voice control. They stated voice control is "clear and unambiguous, like commanding". Display control was regarded as easy to control and intuitive, "it's the most universal and comfortable to use", while also classing it as time-consuming, stating it's "tedious, always having to hold a display, like a smart phone, in your hands". On the other hand, participants were not as convinced by mid-air gesture control, as is mirrored in the collected quantitative data. They stated it's "complicated to use" and "only intuitive if all gestures are the same", explaining that "gestures you use seldom, you completely forget after like a month". The surveillance aspect also valued into those opinions, with participants stating that "I don't want to be under constant surveillance, I wouldn't implement such an interaction technique", which also influenced their view on voice control, even though not as much, as participants specified that "voice control is not as bad as video monitoring, though it would be better if you could turn it off.". When asked about the possibilities of mixing two or three of the suggested interaction modalities in one smart home environment, participants were generally in favour of it, stating "combining like two, like voice and display, would be the most convenient". Participants were also asked about other interaction modalities different from voice, gesture and display control that come to their mind, resulting in interesting approaches for possible future work such as "I'd like haptic feedback, such as stomping once on the floor to activate my underfloor heating" or "I don't want to talk too much to my smart home, I want it to know my demands autonomously". 
+	The qualitative data obtained through the semi-structured interview was analysed by splitting the participants opinions into six categories, obtained through an open-coding approach carried out by the three researchers individually. These are evaluation of the experiment, voice control, display control and mid-air gesture control, as well as possible mixtures of interaction modalities and further suggested ones. 
+	
+	The participants mainly thought of the experiment as interesting and innovative. Participants stated it was "entertaining and interesting to test out new things I've never done before". 
+	
+	Looking into general opinions on the different interaction modalities, the participants voice mainly favourable opinions about voice control. They stated voice control is "clear and unambiguous, like commanding". Display control was regarded as easy to control and intuitive, "it's the most universal and comfortable to use", while also classing it as time-consuming, stating it's "tedious, always having to hold a display, like a smart phone, in your hands". On the other hand, participants were not as convinced by mid-air gesture control, as is mirrored in the collected quantitative data. They stated it's "complicated to use" and "only intuitive if all gestures are the same", explaining that "gestures you use seldom, you completely forget after like a month". The surveillance aspect also valued into those opinions, with participants stating that "I don't want to be under constant surveillance, I wouldn't implement such an interaction technique", which also influenced their view on voice control, even though not as much, as participants specified that "voice control is not as bad as video monitoring, though it would be better if you could turn it off.". 
+	
+	When asked about the possibilities of mixing two or three of the suggested interaction modalities in one smart home environment, participants were generally in favour of it, stating "combining like two, like voice and display, would be the most convenient". Participants were also asked about other interaction modalities different from voice, gesture and display control that come to their mind, resulting in interesting approaches for possible future work such as "I'd like haptic feedback, such as stomping once on the floor to activate my underfloor heating" or "I don't want to talk too much to my smart home, I want it to know my demands autonomously". 
 	
 	\section{Discussion}
 	PLACEHOLDER
