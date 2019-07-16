@@ -129,7 +129,7 @@
 	Smart homes and its interaction modalities are widely spread ...  Existing work focuses on creating smart home interaction modalities considered desirable and enjoyable to use for its users, as developed by Hagensby Jensen et al. \cite{Jensen.2018}. ... This is caused by different obstacles, such as the interaction modalities being too expensive to implement or too complex to understand. Interacting with a smart home requires modalities that are easy to perform by its user, but also modalities that are easily coming to mind, with user enjoyment and social acceptance as variables also important to consider. Our goal is ... 
 	
 	\section{Approach and Methodology}
-	We followed a similar approach as Dingler et al. \cite{Dingler.2018} by showing and explaining different smart home tasks to the participants and subsequently asking them to propose a voice command, a display interaction and a mid-air gesture, to fulfil the specific tasks in their preferred way. All eleven tasks are listed in section 'Tasks'. A within-subject design was chosen, so every participant gave suggestions for every modality and task. We used a latin-square on the order of the interaction modalities to reduce sequence effects \cite{.2017} and fatigue. The tasks were shown to the participants in  random order. We took video recordings of all sessions. We also collected feedback from participants through questionnaires, on preferences of interaction modalities for a specific task and on goodness, ease, enjoyment and social acceptance of their suggestions.
+	We followed a similar approach as Dingler et al. \cite{Dingler.2018} by showing and explaining different smart home tasks to the participants and subsequently asking them to propose a voice command, a display interaction and a mid-air gesture, to fulfil the specific tasks in their preferred way. All eleven tasks are listed in section 'Tasks'. A within-subject design was chosen, so every participant gave suggestions for every modality and task. We used a latin-square on the order of the interaction modalities to reduce sequence effects \cite{.2017} and fatigue. The tasks were shown to the participants in  random order. We took video recordings of all sessions. We also collected feedback from participants through questionnaires, on preferences of interaction modalities for a specific task and on goodness, ease, enjoyment and social acceptance of their suggestions. The study was conducted in German.
 	
 	\subsection{Interaction Modalities}
 	We compared three different types of interaction modalities. The already commonly used voice and display control, as well as the existing but lacking development technique of mid-air gestures. Therefore, we were able to collect insights on the existing modalities and additionally gain a new set of mid-air gestures.
@@ -202,7 +202,14 @@
 	A total of 13 participants (7 female) took part in the study with an average age of $33.5$ (SD = $15.1$). We recruited the participants through social networks and personal contacts. The participants were mostly students from different departments of the University of Regensburg and OTH Regensburg. All of them at least heard of smart homes before and are familiar with interaction through displays. According to the pre-questionnaire, ten participants are familiar with both voice control and display interaction to control other devices, but only one performed mid-air gestures for interaction yet. Seven participants own smart home devices like Google Home, Amazon Alexa, smart TVs or lamps and use them frequently. None of the participants owns a fully integrated smart home system.
 	
 	\subsection{Apparatus}
-	The study was carried out in a quiet room. The different tasks were illustrated through pictures, which showed the state before and after issuing the command. Mid-air gestures, voice commands and comments of the participants were recorded by a mounted camera. Display interaction was documented through a sketch on paper. None of the interaction modalities were actually implemented.
+	The study was carried out in a quiet room. The different tasks were illustrated through pictures, which showed the state before and after issuing the command. Mid-air gestures, voice commands and comments of the participants were recorded by a mounted camera. Display interaction was documented through a sketch on paper. The whole setup is shown in Figure \ref{figure:Setup}. None of the interaction modalities were actually implemented.
+	\begin{figure}
+		\label{figure:Setup}			
+		\centering
+		\includegraphics[width=\columnwidth]{SetupZahlen}
+		\caption{Setup with monitor to illustrate smart home tasks (1), camera for video recording (2) and the questionnaires (3)}
+		\Description{Setup with monitor to illustrate smart home tasks (1), camera for video recording (2) and the questionnaires (3)}
+	\end{figure}
 	
 	\subsection{Procedure}
 	Before starting the session, the participants were asked to fill out a consent form and a demographic questionnaire. Then they had to fill out a questionnaire in terms of their previous knowledge and usage of smart home devices and the three interaction modalities. After that the tasks were presented to the participants in a random order. At first all tasks had to be fulfilled with a single interaction modality, then with the second and after that with the remaining modality. Additionally to the illustration through pictures, the tasks were explained verbally. The participants were allowed to talk, move and interact with a display in any way they wanted and were encouraged to explain their choices in a thinking-aloud approach. After each task the participants rated their specific suggestion on goodness, ease, enjoyment and social acceptance on four 7-point Likert scales. When all tasks were finished with each interaction modality the participants rated the three interaction modalities for each on 7-point Likert scales, on how good each modality is to perform the specific task. They were asked to do this independently of their own suggestions. At the end a semi-structured interview was conducted to explore the motivation of the participants for each choice and allow them to rate the different interaction modalities under the aspects of efficiency, simplicity, naturality, desirability and enjoyment. this is based on a similar approach in the elicitation study on foot gestures by Felberbaum et al. \cite{Felberbaum.2018}. The study took about an hour, for which the participants were compensated with sweets.
@@ -265,10 +272,27 @@ As an example of calculation of an agreement score, consider the task \textit{in
 			\caption{Agreement scores for each task with voice commands}
 			\Description{Agreement scores for each task with voice commands}
 		\end{figure*}
+	Since the study was conducted in German, we also provide the original version of the voice commands to prevent losses during translation. Table \ref{tab:UserVoice} shows the most common and second most common voice command and their frequency according to the different tasks.
+	\begin{table}[t]
+		\begin{center}
+			\caption{User defined voice command set}
+			\label{tab:UserVoice}
+			\begin{footnotesize}				
+				\begin{tabular}{p{0.1\columnwidth} p{0.3\columnwidth} p{0.3\columnwidth} p{0.2\columnwidth}} \toprule
+					\textbf{Task}	& \textbf{German}			& \textbf{English}		& \textbf{Frequency} \\ \midrule
+					1				& lauter					& louder				& 53.8\% \\ 
+									& Musik lauter				& music louder			& 30.8\% \\ \midrule
+					2				& Nächster Kanal			& next channel			& 46.2\% \\
+									& weiter					& next					& 23.1\% \\ \midrule
+					3				& ...						&						& \\ \bottomrule
+				\end{tabular}
+			\end{footnotesize}	
+		\end{center}
+	\end{table}	
 	\subsection{Classification of Display Interaction}
 	The participants suggested $61$ unique display interactions. Similar to the voice commands we manually classified each display interaction along three dimensions for \ac{gui} elements (\textit{form}, \textit{elements}, \textit{flow}) and for touch gestures along four dimensions (\textit{form}, \textit{nature}, \textit{binding}, \textit{flow}). Within each dimension are multiple categories, shown in Table \ref{tab:taxDisplayGUI} for \ac{gui} elements and for touch gestures in Table \ref{tab:taxDisplayTG}. The dimensions and categories for \ac{gui} elements were inspired by the work from Wobbrock \textit{et al.} \citep{Wobbrock.2009} and Ruiz \textit{et al.} \citep{Ruiz.2011}. As taxonomy for touch gestures we used Wobbrock \textit{et al.} \citep{Wobbrock.2009} taxonomy of surface gestures, witch is displayed in Table \ref{tab:taxDisplayTG}.
 	\subsubsection{Taxonomy of display interaction (\ac{gui} elements):}
-	ToDo: Beschreibung Taxonomy
+	ToDo: Beschreibung Taxonomy wie bei voice
 	\begin{table}[t]
 		\begin{center}
 			\caption{Taxonomy of display interactions for smart home tasks (\ac{gui} elements)}
@@ -292,7 +316,7 @@ As an example of calculation of an agreement score, consider the task \textit{in
 		\end{center}
 	\end{table}	
 	\subsubsection{Taxonomy of display interaction (touch gestures):}	
-	ToDo: Bschreibung Taxonomy
+	ToDo: Bschreibung Taxonomy wie bei voice
 	\begin{table}[t]
 		\begin{center}
 			\caption{Taxonomy of display interactions for smart home tasks (touch gestures)}
@@ -321,12 +345,22 @@ As an example of calculation of an agreement score, consider the task \textit{in
 		\end{center}
 	\end{table}
 	\subsection{User-defined display interaction set}
-	ToDo: Beschreibung + Tabelle set
+	ToDo: Beschreibung + Tabelle set wie voice
 	\subsection{Classification of Mid-Air Gestures}
-	ToDo: Beschreibung Taxonomy
+	ToDo: Beschreibung Taxonomy wie voice
 	ToDo: Tabelle Taxonomy
 	\subsection{User-defined mid-air gestures set}
-	ToDo: Beschreibung + Tabelle set
+	ToDo: Beschreibung + Tabelle set wie voice
+	
+	\subsection{Comparing the Modalities}
+	PLACEHOLDER Figure \ref{figure:ModalityRating}
+	\begin{figure}
+		\label{figure:ModalityRating}			
+		\centering
+		\includegraphics[width=\columnwidth]{MeanGesamt}
+		\caption{Modalities rated by the participants, for each task on a scale from 1="not fitting at all" to 7="very fitting"}
+		\Description{Modalities rated by the participants, for each task on a scale from 1="not fitting at all" to 7="very fitting"}
+	\end{figure}
 	
 	\subsection{Qualitative Results}
 	The qualitative data obtained through the semi-structured interview was analysed by splitting the participants opinions into six categories, obtained through an open-coding approach carried out by the three researchers individually. These are evaluation of the experiment, voice control, display control and mid-air gesture control, as well as possible mixtures of interaction modalities and further suggested ones. The participants mainly thought of the experiment as interesting and innovative. Participants stated it was "entertaining and interesting to test out new things I've never done before". Looking into general opinions on the different interaction modalities, the participants voice mainly favourable opinions about voice control. They stated voice control is "clear and unambiguous, like commanding". Display control was regarded as easy to control and intuitive, "it's the most universal and comfortable to use", while also classing it as time-consuming, stating it's "tedious, always having to hold a display, like a smart phone, in your hands". On the other hand, participants were not as convinced by mid-air gesture control, as is mirrored in the collected quantitative data. They stated it's "complicated to use" and "only intuitive if all gestures are the same", explaining that "gestures you use seldom, you completely forget after like a month". The surveillance aspect also valued into those opinions, with participants stating that "I don't want to be under constant surveillance, I wouldn't implement such an interaction technique", which also influenced their view on voice control, even though not as much, as participants specified that "voice control is not as bad as video monitoring, though it would be better if you could turn it off.". When asked about the possibilities of mixing two or three of the suggested interaction modalities in one smart home environment, participants were generally in favour of it, stating "combining like two, like voice and display, would be the most convenient". Participants were also asked about other interaction modalities different from voice, gesture and display control that come to their mind, resulting in interesting approaches for possible future work such as "I'd like haptic feedback, such as stomping once on the floor to activate my underfloor heating" or "I don't want to talk too much to my smart home, I want it to know my demands autonomously". 
@@ -338,6 +372,9 @@ As an example of calculation of an agreement score, consider the task \textit{in
 	The research offers a groundwork for future work in the surroundings of smart home development. Additionally, it also provides the base of producing even more insights on the examined interaction modalities through extending and improving the existing study. To achieve this, future work can build on the qualitative research that showed participants stating they mostly prefer display and voice control, with a possible combination of these two interaction modalities. Further work needs to focus on this approach, while also testing a combination of interaction modalities within a setting including more actual implemented parts of a smart home system. Although simulations offer research that is faster to develop and perform, they can not guarantee with an absolute certainty users would act the same way in a real smart home environment. To achieve a higher transferability and generalizability of the research, the number of participants and population to draw from needs to be significantly extended. 
 	Leaving the approach to interact with user's short-time desires leads to us to future work centering around smart home-user interaction for long-time settings. Many of the participants stated their wish to interact with the smart home as little as possible. Instead, they preferred a scenario of setting their needs and demands at an early point in the implementation and rely on the smart home system working autonomous from that moment on. This could lead to a drastic change in participants' viewpoints on goodness, ease and social acceptance of interaction modalities. Performing a command only once compared to multiple times could lead to more lenient opinions on complex voice commands or mid-air gestures, or highly detailed structures of display commands.
 	Safety issues mentioned in the qualitative research concerning the need to monitor users' in order to implement voice and mid-air gesture control can also lead to further research. In the time of highly demanded data security and privacy, smart homes can not pose as threats to this. Future work can focus on studies developing interaction modalities that are free from such concerns or improve existing modalities to no longer rely on constant user supervision. For this, it's necessary to collaborate with experts of other fields.
+	
+	\section{Conclusion}
+	PLACEHOLDER
 	
 	
 	%%
