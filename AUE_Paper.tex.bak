@@ -1,6 +1,6 @@
 \documentclass[sigchi]{acmart}
 \usepackage{graphicx}
-\usepackage{acronym}
+\usepackage[nolist]{acronym}
 \graphicspath{ {Plots/} }
 
 %%
@@ -126,9 +126,7 @@
 	\maketitle
 	
 	\section{Introduction}
-	While Smart Homes are widely known, they are not widely used. Possible reasons might be high costs, lack of understanding, worries about privacy, the lack of additional value, premature technologies and complicated installation \cite{.}. Solving these problems to further spread the use of smart homes can be done with two different approaches - either remove all the existing obstacles or develop smart home systems so desirable for its users they are not bothered by these obstacles any more, as developed by Hagensby Jensen et al. \cite{Jensen.2018}. Instead of using interaction modalities for smart homes, that are as simple and efficient as possible, the study's intend is to catch potential users attention to own a smart home, by featuring desirable and enjoyable traits.
-	
-	Our goal is to gain a set of voice commands, display interactions and mid-air gestures, to find out what users want and prefer to do, to solve different smart home tasks.
+	Smart homes and its interaction techniques are widely spread ...  Existing work focuses on creating smart home interaction techniques considered desirable and enjoyable to use for its users, as developed by Hagensby Jensen et al. \cite{Jensen.2018}. ... This is caused by different obstacles, such as the interaction techniques being too expensive to implement or too complex to understand. Interacting with a smart home requires techniques that are easy to perform by its user, but also techniques that are easily coming to mind, with user enjoyment and social acceptance as variables also important to consider. Our goal is ... 
 	
 	\section{Approach and Methodology}
 	We followed a similar approach as Dingler et al. \cite{Dingler.2018} by showing and explaining different smart home tasks to the participants and subsequently asking them to propose a voice command, a display interaction and a mid-air gesture, to fulfil the specific tasks in their preferred way. All eleven tasks are listed in section 'Tasks'. A within-subject design was chosen, so every participant gave suggestions for every modality and task. We used a latin-square on the order of the interaction modalities to reduce sequence effects \cite{.2017} and fatigue. The tasks were shown to the participants in  random order. We took video recordings of all sessions. We also collected feedback from participants through questionnaires, on preferences of interaction modalities for a specific task and on goodness, ease, enjoyment and social acceptance of their suggestions.
@@ -263,7 +261,7 @@ As an example of calculation of an agreement score, consider the task \textit{in
 		\begin{figure*}
 			\label{figure:ASvoice}			
 			\centering
-			\includegraphics[width=\textwidth]{AgreementScoresPoint+Line}
+			\includegraphics[width=\textwidth]{AgreementVoice}
 			\caption{Agreement scores for each task with voice commands}
 			\Description{Agreement scores for each task with voice commands}
 		\end{figure*}
@@ -330,7 +328,22 @@ As an example of calculation of an agreement score, consider the task \textit{in
 	\subsection{User-defined mid-air gestures set}
 	ToDo: Beschreibung + Tabelle set
 	
+	\subsection{Qualitative Results}
+	The qualitative data obtained through the semi-structured interview was analysed by splitting the participants opinions into six categories, obtained through an open-coding approach carried out by the three researchers individually. These are evaluation of the experiment, voice control, display control and mid-air gesture control, as well as possible mixtures of the modalities and further suggested interaction modalities. ... The participants mainly thought of the experiment as interesting and innovative. Participants stated it was "interesting to test new things I’ve never done before" ... Looking into general opinions on the different interaction modalities, the participants voice mainly favourable opinions about voice control. They stated "...". Display control was regarded as ... as well ... On the other hand, participants were not as convinced by gesture control, as is mirrored in the collected quantitative data. They stated that "..." and "...". The surveillance aspect also valued into those opinions, with participants stating that "...", which also influenced their view on voice control, even though not as much, as participants specified that "...". When asked about the possibilities of mixing two or three of the suggested interaction modalities in one smart home environment, participants were generally in favour of it ... Participants were also asked about other interaction modalities different from voice, display and gesture control that come to their mind, resulting in interesting approaches for possible future work such as "...". 
 	
+	\section{Discussion}
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+	malesuada, quam in pulvinar varius, metus nunc fermentum urna, id
+	sollicitudin purus odio sit amet enim. Aliquam ullamcorper eu ipsum
+	vel mollis. Curabitur quis dictum nisl. Phasellus vel semper risus, et
+	lacinia dolor. Integer ultricies commodo sem nec semper.
+	
+	\section{Future Work}
+	The research offers a groundwork for future work in the surroundings of smart home development. Additionally, it also provides the base of producing even more insights on the examined interaction modalities through extending and improving the existing study. To achieve this, future work can build on the qualitative research that showed participants stating they mostly prefer display and voice control, with a possible combination of these two interaction modalities. Further work needs to focus on this approach, while also testing a combination of interaction modalities within a setting including more actual implemented parts of a smart home system. Although simulations offer research that is faster to develop and perform, they can not guarantee with an absolute certainty users would act the same way in a real smart home environment. To achieve a higher transferability and generalizability of the research, the number of participants and population to draw from needs to be significantly extended. 
+	
+	Leaving the approach to interact with user's short-time desires leads to us to future work centering around smart home-user interaction for long-time settings. Many of the participants stated their wish to interact with the smart home as little as possible. Instead, they preferred a scenario of setting their needs and demands at an early point in the implementation and rely on the smart home system working autonomous from that moment on. This could lead to a drastic change in participants' viewpoints on goodness, ease and social acceptance of interaction techniques. Performing a command only once compared to multiple times could lead to more lenient opinions on complex voice commands or mid-air gestures, or highly detailed structures of display commands.
+	
+	Safety issues mentioned in the qualitative research concerning the need to monitor users' in order to implement voice and mid-air gesture control can also lead to further research. In the time of highly demanded data security and privacy, smart homes can not pose as threats to this. Future work can focus studies developing interaction modalities that are free from such concerns or improve existing techniques to no longer rely on constant user supervision. For this, it's necessary to collaborate with experts of other fields.
 	
 	
 	%%
@@ -342,36 +355,7 @@ As an example of calculation of an agreement score, consider the task \textit{in
 	%%
 	%% If your work has an appendix, this is the place to put it.
 	\appendix
-	
-	\section{Research Methods}
-	
-	\subsection{Part One}
-	
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-	malesuada, quam in pulvinar varius, metus nunc fermentum urna, id
-	sollicitudin purus odio sit amet enim. Aliquam ullamcorper eu ipsum
-	vel mollis. Curabitur quis dictum nisl. Phasellus vel semper risus, et
-	lacinia dolor. Integer ultricies commodo sem nec semper.
-	
-	\subsection{Part Two}
-	
-	Etiam commodo feugiat nisl pulvinar pellentesque. Etiam auctor sodales
-	ligula, non varius nibh pulvinar semper. Suspendisse nec lectus non
-	ipsum convallis congue hendrerit vitae sapien. Donec at laoreet
-	eros. Vivamus non purus placerat, scelerisque diam eu, cursus
-	ante. Etiam aliquam tortor auctor efficitur mattis.
-	
-	\section{Online Resources}
-	
-	Nam id fermentum dui. Suspendisse sagittis tortor a nulla mollis, in
-	pulvinar ex pretium. Sed interdum orci quis metus euismod, et sagittis
-	enim maximus. Vestibulum gravida massa ut felis suscipit
-	congue. Quisque mattis elit a risus ultrices commodo venenatis eget
-	dui. Etiam sagittis eleifend elementum.
-	
-	Nam interdum magna at lectus dignissim, ac dignissim lorem
-	rhoncus. Maecenas eu arcu ac neque placerat aliquam. Nunc pulvinar
-	massa et mattis lacinia.
+
 	
 \end{document}
 \endinput

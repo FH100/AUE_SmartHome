@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  15 JUL 2019 20:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  16 JUL 2019 12:39
 entering extended mode
 **./AUE_Paper.tex
 (AUE_Paper.tex
@@ -1027,8 +1027,6 @@ tim
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 55.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 126.
 LaTeX Font Info:    Try loading font information for T1+LinuxBiolinumT-TLF on i
@@ -1047,6 +1045,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 126.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 126.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 126.
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1063,7 +1063,7 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ("C:\Users\Felix\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb.c
 fg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1.1{C:/Users/Felix/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+)
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 126.
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
@@ -1093,90 +1093,94 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 126.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 140.
+(Font)              scaled to size 10.0pt on input line 138.
 
-Overfull \hbox (7.94556pt too wide) in paragraph at lines 145--171
+Overfull \hbox (7.94556pt too wide) in paragraph at lines 143--169
  [][] 
  []
 
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 172.
-[2.2
+
+Underfull \vbox (badness 4995) has occurred while \output is active []
+
+ [1.1{C:/Users/Felix/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 217.
- [3.3]
+(Font)              scaled to size 10.0pt on input line 215.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 218.
+ [2.2]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 235.
+(Font)              scaled to size 8.0pt on input line 233.
 
-Overfull \hbox (5.88377pt too wide) in paragraph at lines 233--249
+Overfull \hbox (5.88377pt too wide) in paragraph at lines 231--247
  [] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package caption Warning: \label without proper reference on input line 264.
+Package caption Warning: \label without proper reference on input line 262.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `figure:ASvoice' on page 4 undefined on input line 262
+LaTeX Warning: Reference `figure:ASvoice' on page 3 undefined on input line 260
 .
 
-<Plots/AgreementScoresPoint+Line.png, id=137, 903.375pt x 314.67563pt>
-File: Plots/AgreementScoresPoint+Line.png Graphic file (type png)
-<use Plots/AgreementScoresPoint+Line.png>
-Package pdftex.def Info: Plots/AgreementScoresPoint+Line.png  used on input lin
-e 266.
+<Plots/AgreementVoice.png, id=134, 903.375pt x 314.67563pt>
+File: Plots/AgreementVoice.png Graphic file (type png)
+<use Plots/AgreementVoice.png>
+Package pdftex.def Info: Plots/AgreementVoice.png  used on input line 264.
 (pdftex.def)             Requested size: 506.295pt x 176.36119pt.
 Package acronym Info: Label `acro:gui' newly defined as it shall be overridden
-although it is yet undefined on input line 271.
+although it is yet undefined on input line 269.
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 []\T1/LinuxLibertineT-TLF/m/n/8 (+20) Selection &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 []\T1/LinuxLibertineT-TLF/m/n/8 (+20) Single click-
  []
 
 
-Overfull \hbox (5.88377pt too wide) in paragraph at lines 279--294
+Overfull \hbox (5.88377pt too wide) in paragraph at lines 277--292
  [] 
  []
 
 
-Overfull \hbox (8.98016pt too wide) in paragraph at lines 273--296
+Overfull \hbox (8.98016pt too wide) in paragraph at lines 271--294
  []\T1/LinuxBiolinumT-TLF/m/it/10 (-20) Taxonomy of dis-play in-ter-ac-tion ([]
 [] el-e-ments):[] \T1/LinuxLibertineT-TLF/m/n/10 (-20) ToDo: Beschrei-
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 312--312
+Underfull \hbox (badness 2310) in paragraph at lines 310--310
 []\T1/LinuxLibertineT-TLF/m/n/8 (+20) Dynamic pose and
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 316--317
+Underfull \hbox (badness 3514) in paragraph at lines 314--315
 []\T1/LinuxLibertineT-TLF/m/n/8 (+20) Location de-fined with re-spect to
  []
 
 
-Overfull \hbox (5.88376pt too wide) in paragraph at lines 303--323
+Overfull \hbox (5.88376pt too wide) in paragraph at lines 301--321
  [] 
  []
 
 
-Overfull \hbox (7.43842pt too wide) in paragraph at lines 297--325
+Overfull \hbox (7.43842pt too wide) in paragraph at lines 295--323
  []\T1/LinuxBiolinumT-TLF/m/it/10 (-20) Taxonomy of dis-play in-ter-ac-tion (to
 uch ges-tures):[] \T1/LinuxLibertineT-TLF/m/n/10 (-20) ToDo: Bschrei-
  []
 
-[4.4] (AUE_Paper.bbl
+[3.3] [4.4 <./Plots/AgreementVoice.png>]
+Overfull \hbox (1.22945pt too wide) in paragraph at lines 335--340
+\T1/LinuxLibertineT-TLF/m/n/10 (-20) Lorem ip-sum do-lor sit amet, con-secte-tu
+r adip-isc-ing elit. Morbi
+ []
+
+(AUE_Paper.bbl
 LaTeX Info: Redefining \tempurl on input line 60.
 
 Underfull \hbox (badness 1163) in paragraph at lines 54--63
@@ -1187,78 +1191,64 @@ richt dafür, was dage-
 LaTeX Info: Redefining \tempurl on input line 72.
 LaTeX Info: Redefining \tempurl on input line 85.
 LaTeX Info: Redefining \tempurl on input line 104.
-[5.5 <./Plots/AgreementScoresPoint+Line.png>]
 LaTeX Info: Redefining \tempurl on input line 121.
 LaTeX Info: Redefining \tempurl on input line 140.
 LaTeX Info: Redefining \tempurl on input line 160.
 LaTeX Info: Redefining \tempurl on input line 179.
 LaTeX Info: Redefining \tempurl on input line 199.
 )
-Overfull \hbox (1.22945pt too wide) in paragraph at lines 350--355
-\T1/LinuxLibertineT-TLF/m/n/10 (-20) Lorem ip-sum do-lor sit amet, con-secte-tu
-r adip-isc-ing elit. Morbi
- []
 
-[6.6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 376.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 376.
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[5.5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
  (AUE_Paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 376.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 376.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
+Package rerunfilecheck Info: File `AUE_Paper.out' has not changed.
+(rerunfilecheck)             Checksum: 9B0C6A820628D44112A560A113304264;2910.
 
-
-Package rerunfilecheck Warning: File `AUE_Paper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `AUE_Paper.out':
-(rerunfilecheck)             Before: 63B356703A7148D0974D5FD0B01E0BFC;2541
-(rerunfilecheck)             After:  D79F0DD36AC5083A6D6FD9E31B6D4151;3016.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 18394 strings out of 493305
- 282277 string characters out of 3129802
- 402466 words of memory out of 3000000
+ 18395 strings out of 493305
+ 282317 string characters out of 3129802
+ 402396 words of memory out of 3000000
  21053 multiletter control sequences out of 15000+200000
- 156673 words of font info for 336 fonts, out of 3000000 for 9000
+ 157219 words of font info for 340 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,12n,94p,1667b,608s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.21} has been referenced but does no
-t exist, replaced by a fixed one
-
-{C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{
-C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn
-_25tcsq.enc}{C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/l
-ibertine/lbtn_oexx6f.enc}{C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/font
-s/enc/dvips/libertine/lbtn_naooyc.enc}{C:/Users/Felix/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{C:/Users/Felix/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/Felix
-/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}<C
-:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/libertine/Li
-nBiolinumT.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/libertine/LinBiolinumTB.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/libertine/LinBiolinumTI.pfb><C:/Users/Felix/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/
-Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/libertine/LinLiberti
-neTB.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
-ibertine/LinLibertineTI.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/newtx/fxlri-5letters.pfb><C:/Users/Felix/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/newtx/fxlri-7letters.pfb><C:/Users/Felix/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/Fel
-ix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/Us
-ers/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb>
-<C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsy
-s.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newt
-x/zxlri.pfb>
-Output written on AUE_Paper.pdf (6 pages, 652342 bytes).
+ 60i,12n,94p,1667b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}{C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/libertine/lb
+tn_25tcsq.enc}{C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
+/libertine/lbtn_oexx6f.enc}{C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/enc/dvips/libertine/lbtn_naooyc.enc}{C:/Users/Felix/AppData/Local/Programs/
+MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{C:/Users/Felix/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/Fel
+ix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}
+<C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/libertine/
+LinBiolinumT.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/libertine/LinBiolinumTB.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/libertine/LinBiolinumTI.pfb><C:/Users/Felix/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineT.pfb><C:/User
+s/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/libertine/LinLiber
+tineTB.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/libertine/LinLibertineTI.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/newtx/fxlri-5letters.pfb><C:/Users/Felix/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/newtx/fxlri-7letters.pfb><C:/Users/Felix/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/F
+elix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/
+Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pf
+b><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/tx
+sys.pfb><C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ne
+wtx/zxlri.pfb>
+Output written on AUE_Paper.pdf (5 pages, 649905 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 48802 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 48810 words of extra memory for PDF output out of 51595 (max. 10000000)
 
