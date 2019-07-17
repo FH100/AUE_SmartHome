@@ -273,7 +273,7 @@ As an example of calculation of an agreement score, consider the task \textit{in
 		\begin{equation}
 			A = \frac{13}{12} \left(\left(\frac{7}{13}\right)^2 + \left(\frac{4}{13}\right)^2 + \left(\frac{1}{13}\right)^2 + \left(\frac{1}{13}\right)^2 \right)- \frac{1}{12} = 0.346
 		\end{equation}
-		Figure \ref{figure:ASall} illustrates the agreement scores for each task using voice commands. Participants had the least agreement on commands for the tasks \textit{start multi-colored wash at 60 degree} (Task 3) and \textit{increase the room temperature} (Task 5). This is attributable to the complexity of the tasks.
+		Figure \ref{figure:ASall} illustrates the agreement scores for each task (voice commands: green). Participants had the least agreement on commands for the tasks \textit{start multi-colored wash at 60 degree} (Task 3) and \textit{increase the room temperature} (Task 5). This is attributable to the complexity of the tasks.
 		\begin{figure*}			
 			\centering
 			\includegraphics[width=\textwidth]{AgreementScoresAllTechniques}
@@ -351,7 +351,7 @@ As an example of calculation of an agreement score, consider the task \textit{in
 		\end{center}
 	\end{table}	
 	\subsubsection{Taxonomy of Display Interaction (Touch Gestures):}	
-	As stated before we adopted the taxonomy 
+	As stated before we adopted the taxonomy of surface gestures from Wobbrock \textit{et al.} \citep{Wobbrock.2009} for our taxonomy of display interaction (touch gestures). (ToDo/Frage: Muss diese dann auch wie die anderen beschrieben werden?)
 	\begin{table}[t]
 		\begin{center}
 			\caption{Taxonomy of display interactions for smart home tasks (touch gestures)}
@@ -380,7 +380,41 @@ As an example of calculation of an agreement score, consider the task \textit{in
 		\end{center}
 	\end{table}
 	\subsection{User-Defined Display Interaction Set}
-	ToDo: Beschreibung + Tabelle set wie voice
+	We collected also $143$ display interactions, which we once again sorted into groups of identical display interactions. The group with the largest size was chosen as the representative display interaction for the corresponding task. The \textit{agreement score} (Equation \ref{eq:agreement score}) was calculated for each task to evaluate the degree of consensus among the participants. They are shown in Figure \ref{figure:ASall} (red). The overall low \textit{agreement scores} can be explained by the big amount of different \ac{gui} elements and touch gestures. 
+	Table \ref{tab:UserDisplay} shows the most common and second most common display interaction and their frequency according to the different tasks.
+	\begin{table}[t]
+		\begin{center}
+			\caption{User defined display interaction set with the two most common options for each task}
+			\label{tab:UserDisplay}
+			\begin{footnotesize}				
+				\begin{tabular}{p{0.07\columnwidth} p{0.6\columnwidth} R{0.16\columnwidth}} \toprule
+					\textbf{Task}	& \textbf{Display Interaction}				& \textbf{Frequency} \\ \midrule
+					1				& vertical slider							& 23.1 \% \\ 
+									& horizontal slider							& 23.1 \% \\ \midrule
+					2				& button with arrow	to the right			& 46.2 \% \\
+									& horizontal swipe							& 15.4 \% \\ \midrule
+					3				& button with washing program + button with 60 degree		& 23.1 \% \\ 
+									& (all others)								&  7.7 \% \\ \midrule
+					4				& button with "off"							& 38.5 \% \\
+									& vertical slider							& 15.4 \% \\ \midrule
+					5				& vertical slider							& 30.8 \% \\
+									& button with arrow	to the top				& 23.1 \% \\ \midrule
+					6				& button with arrow to the top				& 46.2 \% \\
+									& horizontal slider							& 15.4 \% \\ \midrule
+					7				& button with "on/off" symbol				& 38.5 \% \\ 
+									& button with "on"							& 23.1 \% \\ \midrule
+					8				& vertical slider							& 46.2 \% \\
+									& (all others)								&  7.7 \% \\ \midrule
+					9				& button with window and "close"			& 23.1 \% \\
+									& button "close window"						& 23.1 \% \\ \midrule
+					10				& button with lock							& 23.1 \% \\ 
+									& button with key							& 15.4 \% \\ \midrule
+					11				& button with camera						& 30.8 \% \\ 
+									& button with "on/off" symbol				& 15.4 \% \\ \bottomrule
+				\end{tabular}
+			\end{footnotesize}	
+		\end{center}
+	\end{table}	
 	\subsection{Classification of Mid-Air Gestures}
 	The participants suggested $55$ unique mid-air gestures. Once again we manually classified each mid-air gesture, this time along eight dimensions. The dimensions are \textit{nature}, \textit{flow}, \textit{context}, \textit{interaction}, \textit{dimension}, \textit{position}, \textit{movement} and \textit{complexity}. Within each dimension are multiple categories, shown in Table \ref{tab:taxGestures}. We adopted the dimensions \textit{nature} (small adjustment at category \textit{physical}), \textit{flow}, \textit{context} and \textit{complexity} and their corresponding categories from Wobbrock \textit{et al.} \citep{Wobbrock.2009} and Ruiz \textit{et al.} \citep{Ruiz.2011}. \textit{Dimension} from Ruiz \textit{et al.} \citep{Ruiz.2011} was adapted to our needs. \textit{Interaction} was inspired by Dingler \textit{et al.} \citep{Dingler.2018} and we further extended the taxonomy by the two dimensions \textit{position} and \textit{movement}.
 	\subsubsection{Taxonomy of Mid-Air Gestures:}
