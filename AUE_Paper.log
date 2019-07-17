@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  16 JUL 2019 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  17 JUL 2019 10:04
 entering extended mode
 **./AUE_Paper.tex
 (AUE_Paper.tex
@@ -1087,25 +1087,32 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 128.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 140.
+(Font)              scaled to size 10.0pt on input line 133.
 
-Overfull \hbox (7.94556pt too wide) in paragraph at lines 145--171
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1.1{C:/Users/Felix/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+Overfull \hbox (7.94556pt too wide) in paragraph at lines 150--176
  [][] 
  []
 
-[1.1{C:/Users/Felix/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-]
-<Plots/SetupZahlen.jpg, id=120, 3468.96pt x 4625.28pt>
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+<Plots/SetupZahlen.jpg, id=115, 3468.96pt x 4625.28pt>
 File: Plots/SetupZahlen.jpg Graphic file (type jpg)
 <use Plots/SetupZahlen.jpg>
-Package pdftex.def Info: Plots/SetupZahlen.jpg  used on input line 210.
+Package pdftex.def Info: Plots/SetupZahlen.jpg  used on input line 215.
 (pdftex.def)             Requested size: 241.14749pt x 321.47368pt.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 218.
 
-[2.2 <./Plots/SetupZahlen.jpg>]
-Overfull \hbox (1.48828pt too wide) in paragraph at lines 223--224
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 225.
+ [2.2]
+Overfull \hbox (1.48828pt too wide) in paragraph at lines 230--231
 \T1/LinuxLibertineT-TLF/m/n/10 (-20) di-men-sions: \T1/LinuxLibertineT-TLF/m/it
 /10 (-20) na-ture\T1/LinuxLibertineT-TLF/m/n/10 (-20) , \T1/LinuxLibertineT-TLF
 /m/it/10 (-20) form\T1/LinuxLibertineT-TLF/m/n/10 (-20) , \T1/LinuxLibertineT-T
@@ -1116,107 +1123,104 @@ Within
  []
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 226.
+(Font)              scaled to size 10.0pt on input line 233.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 242.
+(Font)              scaled to size 8.0pt on input line 249.
 
-Overfull \hbox (5.88377pt too wide) in paragraph at lines 240--256
+Overfull \hbox (5.88377pt too wide) in paragraph at lines 247--263
  [] 
  []
 
-<Plots/AgreementScoresAllTechniques.png, id=135, 903.375pt x 314.67563pt>
+[3.3 <./Plots/SetupZahlen.jpg>]
+<Plots/AgreementScoresAllTechniques.png, id=153, 903.375pt x 314.67563pt>
 File: Plots/AgreementScoresAllTechniques.png Graphic file (type png)
 <use Plots/AgreementScoresAllTechniques.png>
 Package pdftex.def Info: Plots/AgreementScoresAllTechniques.png  used on input 
-line 272.
+line 279.
 (pdftex.def)             Requested size: 506.295pt x 176.36119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
 []|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Raumtemperatur
  []
 
-[3.3]
 Package acronym Info: Label `acro:gui' newly defined as it shall be overridden
-although it is yet undefined on input line 318.
+although it is yet undefined on input line 325.
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Selection &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
 []|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Single click-
  []
 
 
-Overfull \hbox (5.88377pt too wide) in paragraph at lines 326--341
+Overfull \hbox (5.88377pt too wide) in paragraph at lines 333--348
  [] 
  []
 
 
-Overfull \hbox (11.99858pt too wide) in paragraph at lines 320--343
+Overfull \hbox (11.99858pt too wide) in paragraph at lines 327--350
  []\T1/LinuxBiolinumT-TLF/m/it/10 (-20) Taxonomy of Dis-play In-ter-ac-tion ([]
 [] El-e-ments):[] \T1/LinuxLibertineT-TLF/m/n/10 (-20) ToDo: Beschrei-
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 359--359
+Underfull \hbox (badness 2310) in paragraph at lines 366--366
 []|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Dynamic pose and
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 363--364
+Underfull \hbox (badness 3514) in paragraph at lines 370--371
 []|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Location de-fined with re-spect to
  []
 
 
-Overfull \hbox (5.88376pt too wide) in paragraph at lines 350--370
+Overfull \hbox (5.88376pt too wide) in paragraph at lines 357--377
  [] 
  []
 
 
-Overfull \hbox (13.4136pt too wide) in paragraph at lines 344--372
+Overfull \hbox (13.4136pt too wide) in paragraph at lines 351--379
  []\T1/LinuxBiolinumT-TLF/m/it/10 (-20) Taxonomy of Dis-play In-ter-ac-tion (To
 uch Ges-tures):[] \T1/LinuxLibertineT-TLF/m/n/10 (-20) ToDo: Bschrei-
  []
 
 [4.4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7151) has occurred while \output is active []
 
-
-Overfull \hbox (4.3653pt too wide) in paragraph at lines 407--407
+ [5.5 <./Plots/AgreementScoresAllTechniques.png>]
+Overfull \hbox (4.3653pt too wide) in paragraph at lines 414--414
 []|\T1/LinuxLibertineT-TLF/b/n/8 Interaction| 
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 408--408
+Underfull \hbox (badness 1902) in paragraph at lines 415--415
 []|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Gesture was per-formed with two
  []
 
 
-Overfull \hbox (3.6853pt too wide) in paragraph at lines 409--409
+Overfull \hbox (3.6853pt too wide) in paragraph at lines 416--416
 []|\T1/LinuxLibertineT-TLF/b/n/8 Dimension| 
  []
 
 
-Overfull \hbox (2.39732pt too wide) in paragraph at lines 418--418
+Overfull \hbox (2.39732pt too wide) in paragraph at lines 425--425
 []|\T1/LinuxLibertineT-TLF/b/n/8 Movement| 
  []
 
 
-Overfull \hbox (6.62129pt too wide) in paragraph at lines 420--420
+Overfull \hbox (6.62129pt too wide) in paragraph at lines 427--427
 []|\T1/LinuxLibertineT-TLF/b/n/8 Complexity| 
  []
 
-[5.5 <./Plots/AgreementScoresAllTechniques.png>]
 <Plots/MeanGesamt.png, id=187, 540.51938pt x 314.67563pt>
 File: Plots/MeanGesamt.png Graphic file (type png)
 <use Plots/MeanGesamt.png>
-Package pdftex.def Info: Plots/MeanGesamt.png  used on input line 441.
+Package pdftex.def Info: Plots/MeanGesamt.png  used on input line 448.
 (pdftex.def)             Requested size: 241.14749pt x 140.38792pt.
- [6.6 <./Plots/MeanGesamt.png>] (AUE_Paper.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+[6.6] (AUE_Paper.bbl [7.7 <./Plots/MeanGesamt.png>]
 LaTeX Info: Redefining \tempurl on input line 60.
 
 Underfull \hbox (badness 1163) in paragraph at lines 54--63
@@ -1232,28 +1236,23 @@ LaTeX Info: Redefining \tempurl on input line 140.
 LaTeX Info: Redefining \tempurl on input line 160.
 LaTeX Info: Redefining \tempurl on input line 179.
 LaTeX Info: Redefining \tempurl on input line 199.
-)
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
-[7.7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 478.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 478.
+) [8.8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 485.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 485.
  (AUE_Paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 478.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 478.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 485.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 485.
 Package rerunfilecheck Info: File `AUE_Paper.out' has not changed.
 (rerunfilecheck)             Checksum: 33D0C5AA53DB168169E01B2C8FAD26FF;3196.
  ) 
 Here is how much of TeX's memory you used:
- 18505 strings out of 493305
- 284208 string characters out of 3129802
- 406551 words of memory out of 3000000
+ 18509 strings out of 493305
+ 284286 string characters out of 3129802
+ 411551 words of memory out of 3000000
  21087 multiletter control sequences out of 15000+200000
- 163818 words of font info for 382 fonts, out of 3000000 for 9000
+ 164091 words of font info for 384 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,12n,94p,1667b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,12n,94p,1188b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }{C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/libertine/lb
 tn_25tcsq.enc}{C:/Users/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
@@ -1277,9 +1276,9 @@ ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/F
 elix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/U
 sers/Felix/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/zxlri.pfb
 >
-Output written on AUE_Paper.pdf (7 pages, 4267009 bytes).
+Output written on AUE_Paper.pdf (8 pages, 4270620 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
+ 296 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
  48324 words of extra memory for PDF output out of 51595 (max. 10000000)
 
