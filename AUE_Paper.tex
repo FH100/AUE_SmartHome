@@ -324,7 +324,11 @@ As an example of calculation of an agreement score, consider the task \textit{in
 	\subsection{Classification of Display Interaction}
 	The participants suggested $61$ unique display interactions. Similar to the voice commands we manually classified each display interaction along three dimensions for \ac{gui} elements (\textit{form}, \textit{elements}, \textit{flow}) and for touch gestures along four dimensions (\textit{form}, \textit{nature}, \textit{binding}, \textit{flow}). Within each dimension are multiple categories, shown in Table \ref{tab:taxDisplayGUI} for \ac{gui} elements and for touch gestures in Table \ref{tab:taxDisplayTG}. The dimensions and categories for \ac{gui} elements were inspired by the work from Wobbrock \textit{et al.} \citep{Wobbrock.2009} and Ruiz \textit{et al.} \citep{Ruiz.2011}. As taxonomy for touch gestures we used Wobbrock \textit{et al.} \citep{Wobbrock.2009} taxonomy of surface gestures, witch is displayed in Table \ref{tab:taxDisplayTG}.
 	\subsubsection{Taxonomy of Display Interaction (\ac{gui} Elements):}
-	ToDo: Beschreibung Taxonomy wie bei voice
+	The \textit{form} dimension describes, if the display interaction consists of a single action that leads to a response or if it consists of a selection of a desired action that is started through another element. A \textit{direct action} would be a single click on a button to turn the light on. Selecting a washing program and starting it with an additional "Start"-Button would be considered \textit{selection \& confirmation}.
+	
+	The \textit{elements} dimension describes, what kind of \ac{gui} elements where used for the display interaction. \textit{Single clickables} are elements which emit a response after a single click, like buttons or checkboxes. The category \textit{slider} is chosen, when one or more sliders are included in the \ac{gui}, for example to change the volume of music. Rotational elements like the selection of washing programs with the representation of a rotary knob is categorised as \textit{rotation}. \textit{Text \& number entry} includes options to enter something with a keyboard. Special symbolic elements, like dragging wood into a fire, to increase the room temperature are considered \textit{symbolic}.
+	
+	The \textit{flow} dimension again categorizes this time the display interactions, if response of a device occurs after or while the user acts. A \textit{descrete} display interaction would be, pressing a "Close Window" button and after that the command is executed. A \textit{continuous} one would be, dragging the regulator on a slider to adjust the volume of music simultaneously.
 	\begin{table}[t]
 		\begin{center}
 			\caption{Taxonomy of display interactions for smart home tasks (\ac{gui} elements)}
@@ -337,18 +341,17 @@ As an example of calculation of an agreement score, consider the task \textit{in
 					\textbf{Elements} 	& Single clickables			& The \ac{gui} includes one or more single clickables 
 																	  (button, checkbox, etc.) \\
 										& Slider					& The \ac{gui} includes one or more sliders \\
-										& More words				& Voice command consists out of more words without sentence structure \\
 										& Rotation					& The \ac{gui} includes one or more rotational elements \\ 
 										& Text \& number entry		& The \ac{gui} includes one or more options to enter text or numbers \\
 										& Symbolic					& The \ac{gui} includes one or more special symbolic elements\\ \midrule
-					\textbf{Flow}		& Discrete		& Response occurs \textit{after} the user acts \\ 
-										& Continuous 	& Response occurs \textit{while} the user acts  \\ \bottomrule
+					\textbf{Flow}		& Discrete					& Response occurs \textit{after} the user acts \\ 
+										& Continuous 				& Response occurs \textit{while} the user acts  \\ \bottomrule
 				\end{tabular}
 			\end{footnotesize}	
 		\end{center}
 	\end{table}	
 	\subsubsection{Taxonomy of Display Interaction (Touch Gestures):}	
-	ToDo: Bschreibung Taxonomy wie bei voice
+	As stated before we adopted the taxonomy 
 	\begin{table}[t]
 		\begin{center}
 			\caption{Taxonomy of display interactions for smart home tasks (touch gestures)}
@@ -356,22 +359,22 @@ As an example of calculation of an agreement score, consider the task \textit{in
 			\begin{footnotesize}
 				\begin{tabular}{p{0.12\columnwidth} p{0.28\columnwidth} p{0.5\columnwidth}} \toprule
 					\multicolumn{3}{c}{\textit{Taxonomy of display interactions (touch gestures)}} \\ \midrule
-					\textbf{Nature}		& Symbolic		& Gesture visually depicts a symbol \\
-										& Physical		& Gesture acts physically on objects \\ 
-										& Metaphorical 	& Gesture indicates a metaphor \\ 
-										& Abstract		& Gesture-referent mapping is arbitrary \\ \midrule
-					\textbf{Form} 		& Static pose	& Hand pose is held in one location \\
-										& Dynamic pose	& Hand pose changes in one location \\
+					\textbf{Nature}		& Symbolic				& Gesture visually depicts a symbol \\
+										& Physical				& Gesture acts physically on objects \\ 
+										& Metaphorical 			& Gesture indicates a metaphor \\ 
+										& Abstract				& Gesture-referent mapping is arbitrary \\ \midrule
+					\textbf{Form} 		& Static pose			& Hand pose is held in one location \\
+										& Dynamic pose			& Hand pose changes in one location \\
 										& Static pose and path 	& Hand pose is held as hand moves \\
 										& Dynamic pose and path	& Hand pose changes as hand moves \\
-										& One-point touch	& Static pose with one finger \\ 
-										& One-point path	& Static pose and path with one Finger \\ \midrule
-					\textbf{Binding}	& Object-centric 	& Location defined with respect to object features \\
-										& World-dependent 	& Location defined with respect to world features \\
-										& World-independent & Location can ignore world features \\
+										& One-point touch		& Static pose with one finger \\ 
+										& One-point path		& Static pose and path with one Finger \\ \midrule
+					\textbf{Binding}	& Object-centric 		& Location defined with respect to object features \\
+										& World-dependent 		& Location defined with respect to world features \\
+										& World-independent 	& Location can ignore world features \\
 										& Mixed dependencies	& World-independent plus another \\ \midrule
-					\textbf{Flow}		& Discrete		& Response occurs \textit{after} the user acts \\ 
-										& Continuous 	& Response occurs \textit{while} the user acts  \\ \bottomrule
+					\textbf{Flow}		& Discrete				& Response occurs \textit{after} the user acts \\ 
+										& Continuous 			& Response occurs \textit{while} the user acts  \\ \bottomrule
 				\end{tabular}
 			\end{footnotesize}
 		\end{center}
@@ -383,7 +386,7 @@ As an example of calculation of an agreement score, consider the task \textit{in
 	\subsubsection{Taxonomy of Mid-Air Gestures:}
 	The \textit{nature} dimension includes \textit{symbolic} mid-air gestures, which visually depict symbols. An example for that is drawing a "X" into the air to turn off the oven. \textit{Physical} mid-air gestures imitate real physical actions like locking a door with a key, by rotating the wrist with a fist like hand position. A \textit{metaphorical} gesture may be wrapping the arms around yourself with rubbing, to indicate you are freezing and want to raise the temperature in the room. Mid-air gestures that did not fit into any of these three categories are classified as \textit{abstract}.
 	
-	The \textit{flow} dimension is the same as in the other taxonomies  and categorizes the mid-air gestures, if response of a device occurs after or while the user acts. A mid-air gesture is\textit{discrete}, when the response occurs after the movement, and \textit{continuous}, when the response occurs during the movement. 
+	The \textit{flow} dimension is the same as in the other taxonomies and categorizes the mid-air gestures, if response of a device occurs after or while the user acts. A mid-air gesture is\textit{discrete}, when the response occurs after the movement, and \textit{continuous}, when the response occurs during the movement. 
 	
 	The \textit{context} dimension describes, if the mid-air gesture requires a specific context or can be performed independently. For example making a horizontal hand movement to change the TV channel is \textit{in-context}, whereas pointing at the TV and then performing the hand movement is considered \textit{no-context}.
 	
